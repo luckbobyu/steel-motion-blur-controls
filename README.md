@@ -1,102 +1,84 @@
 # Mean Blur Strength and Strength Distribution in Steel Defect Detection
 
-Local research-artifact candidate aligned to the supplied **English Draft V19**
-(26 November 2026). This directory has not been published to GitHub.
+Code, recorded protocols and numerical results for studying motion-blur training
+in steel surface defect detection on NEU-DET and GC10-DET.
 
-## What this candidate reproduces
+This repository provides table reconstruction, blur-kernel checks and tools for
+evaluating archived predictions. It also includes reports from fixed-checkpoint
+inference checks completed in the original lab environment. Numerical inputs
+are aligned with manuscript V19; see [the manuscript mapping](docs/MANUSCRIPT_MAPPING.md).
 
-The standard-library entry reconstructs the numerical content of Tables 2-5,
-the scan values behind Figure 2, recorded mean moments for Table 1, and the
-V19 high@0.15 versus low@0.20 operating-point comparison from archived exports.
-It checks 36 paired core endpoints, 100 distribution summaries, 1,728 path-count
-records and 54 adjacent scan comparisons. It also exports absolute performance
-and seed SDs so that they are distinct from paired-gain SDs.
+## What this repository reproduces
 
-The public candidate primarily supports metric/count replay. A limited
-fixed-checkpoint inference check has also passed in the original lab environment:
-DM seed 2, low/high arms, both datasets and four linear27 validation directions.
-All 12 frozen-cutoff endpoints match, and the returned predictions were recounted
-locally. This does **not** establish a fresh-install reproduction, all-model/test-set
-inference, independent training or image-cluster bootstrap reexecution.
-See `ARTIFACT_STATUS.json` for the current boundary.
+The main entry reconstructs Tables 2–5, the scan values behind Figure 2, recorded
+mean kernel moments for Table 1, and the high@0.15 versus low@0.20 operating-point
+comparison. It checks 36 paired core endpoints, 100 distribution summaries,
+1,728 path-count records and 54 adjacent scan comparisons. Absolute performance
+SDs and paired-gain SDs are reported separately.
 
 ## Quick start
 
-Python 3.9 or newer, no third-party packages for table reconstruction.
+Python 3.9 or newer; table reconstruction needs no third-party packages.
 
 ```bash
 python scripts/reproduce.py
 ```
 
-The command first verifies the candidate file hashes. Results are written to
-`outputs/tables/`, including `CHECKS.json`, all budget
-endpoints and `v17_cross_budget.csv`. The latter filename preserves its historical
-analysis name; its contents also support V19 Section 4.4.
+The command verifies the input file hashes and writes results to `outputs/tables/`,
+including `CHECKS.json`. The output filename `v17_cross_budget.csv` retains its
+historical name; its contents also support V19 Section 4.4.
 
-Optional kernel-construction checks use NumPy 2.3.5 and Python 3.11 or newer.
-This is the locally checked audit environment, not the historical GPU training environment.
+Optional kernel checks use Python 3.11 or newer and NumPy 2.3.5:
 
 ```bash
 python -m pip install -r requirements-kernels.txt
 python scripts/generate_kernels.py
 ```
 
-For the measured-trajectory check, additionally supply the original official
-`500Frames.zip` using `--trajectories /path/to/500Frames.zip`. It is not bundled
-and is not downloaded implicitly. Archive SHA-256 is checked before use.
+This is the locally checked kernel-audit environment. The historical GPU
+environment is recorded separately in `configs/historical_environment.json`.
+For measured-trajectory checks, supply the original `500Frames.zip` with
+`--trajectories /path/to/500Frames.zip`. Its SHA-256 is checked before use;
+the archive is not bundled or downloaded automatically.
 
-## Structure
+## Verification results
 
-- `data/exported/` contains reported seed-level results and summary references.
-- `data/operating_points/` contains per-seed per-path TP, FP and denominators.
-- `data/scans/` contains seed-level scan exports.
-- `configs/` contains recorded protocols and frozen validation cutoffs.
-- `reference/` contains small study-kernel functions and original source hashes.
-- `scripts/` contains table replay, kernel checks and a cache-count evaluator.
-- `docs/MANUSCRIPT_MAPPING.md` maps V19 sections and tables to these inputs.
+- **File integrity:** all 92 referenced assets matched their recorded SHA-256
+  hashes; 8,196 dataset files were indexed. See `docs/SERVER_ASSET_AUDIT.json`.
+- **Archived prediction counts:** 12 frozen-cutoff validation endpoints matched
+  exactly on the lab server. See `docs/SERVER_CPU_ACCEPTANCE.json`.
+- **Fixed-checkpoint inference:** DM-YOLO seed 2, low/high arms, both datasets
+  and four linear27 validation directions were rerun. All 12 count endpoints
+  matched exactly. No ordered box/score differences exceeded atol 1e-4 and
+  rtol 1e-5 across 3,280 image-inference views. Returned predictions were also
+  recounted locally. See `docs/SERVER_GPU_ACCEPTANCE.json`.
+- **Local checks:** table replay, kernel checks and unit tests passed in a clean
+  directory. See `LOCAL_VALIDATION.json`. GitHub Actions results require separate
+  confirmation on the repository's Actions page.
 
-## Next server step and GitHub publication
+The inference entry requires the pinned original lab project, datasets and
+checkpoints. Instructions are in `docs/GPU_INFERENCE_ACCEPTANCE.md`. These checks
+cover the stated validation conditions; they do not establish fresh-install
+training, all-model/test-set inference or bootstrap reexecution.
 
-The standalone read-only collector and its manifest are packaged separately for
-easy transfer. Instructions are in `docs/SERVER_COLLECTION.md`. The completed first pass verified all 92 referenced assets (68 checkpoints and
-24 prediction caches), indexed 8,196 dataset files, and matched the five original
-kernel-source fingerprints. See `docs/SERVER_ASSET_AUDIT.json`. This establishes
-file integrity, not independent training or inference reproduction.
+## Repository structure
 
-The read-only CPU check is `scripts/verify_server_predictions.py`. It compares
-the original DM seed-2 **linear27** validation caches with 12 frozen-cutoff
-endpoints. The corrected server check pins 16 exact linear27 job reports and passed
-all 12 endpoints exactly (TP, FP, GT, views, recall and FP/view). The first check
-selected obsolete linear23 caches; that acceptance-script error was corrected
-without changing historical results or frozen cutoffs.
-See `docs/CPU_ACCEPTANCE_STATUS.json` and `docs/SERVER_CPU_ACCEPTANCE.json`. Three detector/helper source directories
-(622 files) have been privately collected and their returned hashes checked;
-these third-party runtimes are not automatically included in the public candidate.
+- `data/`: seed-level results, summary references and per-path counts.
+- `configs/`: recorded protocols, frozen cutoffs and data/source fingerprints.
+- `reference/`: study-kernel functions and their source fingerprints.
+- `scripts/`: numerical reconstruction and acceptance-check tools.
+- `tests/`: count rules and acceptance-check regression tests.
+- `docs/`: manuscript mapping, provenance, verification reports and instructions.
 
-`docs/GITHUB_RELEASE.md` describes the remaining account, license and publication
-steps. `.github/workflows/verify.yml` is prepared for Windows/Linux count tests
-and a kernel audit after authorized GitHub upload; no remote Actions run has
-occurred yet.
+## Evaluation scope and availability
 
-## Fixed-checkpoint acceptance
+Validation cutoffs remain frozen during test evaluation. The cross-budget result
+compares different validation budgets; it is not a test-refitted iso-FP curve.
+FP/view counts extra predictions on defect-bearing benchmark views, rather than
+false alarms measured on a defect-free production stream.
 
-`docs/SERVER_GPU_ACCEPTANCE.json` records the two completed server runs: 16
-model/condition passes and 3,280 image-inference views. No ordered box/score
-differences exceeded the diagnostic tolerances (atol 1e-4, rtol 1e-5); all TP, FP,
-GT and view counts matched exactly at the three frozen validation budgets.
-`scripts/verify_checkpoint_inference.py` requires the pinned original project;
-see `docs/GPU_INFERENCE_ACCEPTANCE.md`. Checkpoints and detector runtimes are
-not automatically redistributed by this metric-replay candidate.
-
-## Scope and release status
-
-Validation cutoffs are kept frozen. The cross-budget analysis compares different
-validation budgets; it is not a test-refitted iso-FP curve or a prospective risk
-guarantee. FP/view denotes extra predictions on defect-bearing benchmark views.
-Three seeds and reused test views are not independent industrial deployments.
-
-No model checkpoints, raw dataset images, unrelated draft manuscripts or peer
-review reports are included. Source detector code follows its upstream terms and
-is not vendored here. An author-approved license, authorship metadata, stable
-public URL and finalized clean-environment checks are still pending. Do not
-describe this local candidate as a completed public release.
+The repository is currently private while release preparation is completed.
+Model checkpoints, raw dataset images and third-party detector runtimes are not
+bundled. Upstream sources and licensing information are described in
+`docs/PROVENANCE.md`. License selection, authorship metadata and public-release
+approval remain pending; see `ARTIFACT_STATUS.json` and `docs/GITHUB_RELEASE.md`.
