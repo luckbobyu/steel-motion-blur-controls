@@ -1,0 +1,466 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/gc10_seed2_low_train/attempt_20261123_092320_146891/train/weights/last.pt",
+      "sha256": "8982e09771a7f866acf48b3e9cc7e6f2d33455ee319e14115bf635ea3aa9bafb",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/gc10_seed2_measured_motion_low_mean_only/attempt_20261123_100442_076793/shape_predictions.json",
+      "sha256": "68008cc4190ccbe06778712ef5b9fa4397b31014435fda2dc776c6585b83a13d",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/gc10_seed2_measured_motion_mean_only/attempt_20261123_092203_283914/shape_predictions.json",
+      "sha256": "ca851aa13514079767d41f5e925e7d0d49b7dd56560fcae681932696535fc13f",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/gc10_seed2_test_motion_low_mean_only/attempt_20261123_100324_580069/test_predictions.json",
+      "sha256": "e1e1b4cc78ed8d0ed4379abcd2687e11374e4aa5b7a1cff6b4ca8ac1935ab516",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/gc10_seed2_test_motion_mean_only/attempt_20261123_092047_825638/test_predictions.json",
+      "sha256": "48814492c97f172630b9070ce822572e450347e543666561e53f97069ef6bed3",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/gc10_seed2_val_motion_low_mean_only/attempt_20261123_100300_125144/validation_predictions.json",
+      "sha256": "decc7ade8223d7b21e99b27676f5759fb61ee2f02681295b5b7c53c090cce16a",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/gc10_seed2_val_motion_mean_only/attempt_20261123_092023_106266/validation_predictions.json",
+      "sha256": "c5f1816a82c2c4e9f3fa6362de02b9219aed72226fd0445e75a95d62e298142a",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_low_train/attempt_20261123_085803_020304/train/weights/last.pt",
+      "sha256": "8c4592b98f4c26b0c8535cd62115d5e804fb59b62c7ea6d7aa1a1d7ae94d306e",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_measured_motion_low_mean_only/attempt_20261123_091924_499103/shape_predictions.json",
+      "sha256": "a6fe3839ee2b435d176e4175cf335743885fcf4818e4a4ad0c99fcc5469bdb2f",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_measured_motion_mean_only/attempt_20261123_085722_650806/shape_predictions.json",
+      "sha256": "b1597e7630c935188713536b77ab6dde6fae813fd3791bf9fdfca8796cf3c376",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_test_motion_low_mean_only/attempt_20261123_091851_975380/test_predictions.json",
+      "sha256": "0a46ad6a9a8b10184e962394c8dd5514ec8012d0f61c4744caa8f0b3795c8c7e",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_test_motion_mean_only/attempt_20261123_085650_110236/test_predictions.json",
+      "sha256": "d125ae48269eb76aed33ecf2ec14a9ff9981df256da3d8a10e26076b95fea394",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_val_motion_low_mean_only/attempt_20261123_091818_482941/validation_predictions.json",
+      "sha256": "1965ccf505466f66a5b93cfa972419be01a50bb7ef186278f04f90b7f81812d7",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_val_motion_mean_only/attempt_20261123_085615_166077/validation_predictions.json",
+      "sha256": "d8a2d4e7962904a7d249a57eacd12051070cab7d193626f688fff96f7d395a07",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed0_low_test/attempt_20261123_105527_043159/test_predictions.json",
+      "sha256": "ff3962500a9a6321e2ea515fdb7471476f8cbe54f8765af127cf5fbc6e2941c7",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed0_low_train/attempt_20261123_102147_867082/train/weights/last.pt",
+      "sha256": "3aaaca26579901a1644d1f3ddd3f51dac1c14cba9d7050f1fd4315c1f4eae197",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed0_low_val/attempt_20261123_105504_767400/validation_predictions.json",
+      "sha256": "fa874d4c7432ab5516c13a65cf44acf154649b9ace1389edcf77e190e9b48f75",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed1_low_test/attempt_20261123_113015_654091/test_predictions.json",
+      "sha256": "312eaf8e9897c6fe6b3ae9b486b91702c854c3c938b295a4d9fbe1494c2b3f3a",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed1_low_train/attempt_20261123_105644_794949/train/weights/last.pt",
+      "sha256": "ac7f24a45837410a5b7c41df63339bde93f2a9c8ec0fe61472dcb06aaadfcd66",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed1_low_val/attempt_20261123_112953_642437/validation_predictions.json",
+      "sha256": "a8bd56793af761a8a6a9c9fb26e60e20118bc0e01941ba73565c6a85259209cc",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed2_low_test/attempt_20261123_120455_954422/test_predictions.json",
+      "sha256": "ba8c1d14ad16be1ba20b73a01d3a1d6c9ed1bbb173c3aa83b988b463a8a61536",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed2_low_train/attempt_20261123_113132_726772/train/weights/last.pt",
+      "sha256": "a48c9ef43825c48bccd1ac220677129fbd57022264e8401ee369a030e0f344ba",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/gc10_seed2_low_val/attempt_20261123_120434_390912/validation_predictions.json",
+      "sha256": "7c8016855e55386c4eef8ea66ea1c0886f5d57171eb3fc982a490d1b2dbf471a",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed0_low_test/attempt_20261123_094534_108825/test_predictions.json",
+      "sha256": "7fdeb51255fe9ddf24db68d1602d9b7f9cfc8589a569ff71afa0f43b56213a8f",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed0_low_train/attempt_20261123_092812_524727/train/weights/last.pt",
+      "sha256": "78f88d8e9e098f394171b88c0d38938e7ada66535bd6fc38fa0eda2fe4b79a06",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed0_low_val/attempt_20261123_094504_024187/validation_predictions.json",
+      "sha256": "c469b1d33d3b3f97af454edcef4f7ea6b60174c298d21b21557722278f24d58e",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed1_low_test/attempt_20261123_100333_376754/test_predictions.json",
+      "sha256": "0189f57c4a87720abbc550c5f14a250577879f14d5a4ad346625e98c79647e47",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed1_low_train/attempt_20261123_094611_981955/train/weights/last.pt",
+      "sha256": "3010a29ccc3c86c4fd2a45fb339ba6768ef0926794e2d7055df122bded1201d0",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed1_low_val/attempt_20261123_100303_596497/validation_predictions.json",
+      "sha256": "e56706c915b70552e7529bed982a54238e61dc1ff99feaccdaaa0e2ecefbf5cb",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed2_low_test/attempt_20261123_102101_917970/test_predictions.json",
+      "sha256": "ae1c11a93adc9f969fa12eed7e19435b5504707752ade177158ec647cdf1473c",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed2_low_train/attempt_20261123_100410_753708/train/weights/last.pt",
+      "sha256": "780897a2caa9f3281dedbafc8d884c1e1da89c487616ca01ef6c947a6a5654d1",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys102_lowmean_gpu1_v1_20261123_092752_153950/jobs/neu_seed2_low_val/attempt_20261123_102033_101457/validation_predictions.json",
+      "sha256": "1dad5faed71a00c37102dee9baf53b68b8e7014dc222bbf810421d3bef50be8b",
+      "kind": "predictions"
+    },
+    {
+      "path": "records/blocksys113_supplement_gpu0_v1_20261123_215200_965913/scan_gc10/jobs/gc10_seed0_single_match_9_train/attempt_20261124_000737_964129/train/weights/last.pt",
+      "sha256": "d99deb038bc8e70a6625fd2d3ff6bbd810d4024f0f502f4ec3abd715b7beb6f6",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_supplement_gpu0_v1_20261123_215200_965913/scan_gc10/jobs/gc10_seed2_single_match_23_train/attempt_20261124_015923_815849/train/weights/last.pt",
+      "sha256": "db826989ee74ac896a106d2f6b189c7f61d548b215b1de7e65d7bd7a6d6cb4a7",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_supplement_gpu0_v1_20261123_215200_965913/scan_gc10/jobs/gc10_seed2_single_match_9_train/attempt_20261124_011640_714355/train/weights/last.pt",
+      "sha256": "2943b29fbfdd63535b25a1ce7313ec717cb6b0c997c7e9ec5c8350794d4c4410",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_supplement_gpu0_v1_20261123_215200_965913/scan_neu/jobs/neu_seed0_single_match_9_train/attempt_20261123_223646_368854/train/weights/last.pt",
+      "sha256": "2abdb85d2efa12d3288afdb831d9968722c96bee1770464cebd75e5c572f541f",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_supplement_gpu0_v1_20261123_215200_965913/scan_neu/jobs/neu_seed2_single_match_23_train/attempt_20261123_233644_009103/train/weights/last.pt",
+      "sha256": "bea6962cdfeda9f43c6e63251b8dcae5bf3b09be3edf49b93d8a606168bec663",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_supplement_gpu0_v1_20261123_215200_965913/scan_neu/jobs/neu_seed2_single_match_9_train/attempt_20261123_231424_878166/train/weights/last.pt",
+      "sha256": "859fb1544bfac7c757bf0eada9ad714037c26ce65e111141cdc72ba3543f1013",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed0_clean500/attempt_20261124_155001_600912/train/weights/last.pt",
+      "sha256": "af2a108e547303586178485df1208f441df873fe16aeeba9c2017144641bdc67",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed0_high_single_13tap_train/attempt_20261125_022239_030469/train/weights/last.pt",
+      "sha256": "d8d79e7f79b9a91f329ad01d42b9e6a99131500f691d911cb898586f74ce49ea",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed0_low_single_13tap_train/attempt_20261125_014339_248734/train/weights/last.pt",
+      "sha256": "96397cbb7785c40a3cda6f5db396c6841d0d42ef9b278a6371a0582008b8a59a",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed0_three_13tap_train/attempt_20261125_030144_654369/train/weights/last.pt",
+      "sha256": "b589be95f1291d704747ab69c6e825807e506dffe34f0ec2a5e1175fb07f94c5",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed1_clean500/attempt_20261125_034049_765401/train/weights/last.pt",
+      "sha256": "c3fbfb05ddaf3e9478bdfdbc5b947f24a29399063e470c557b7c53bb72a6f88c",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed1_high_single_13tap_train/attempt_20261125_140646_280268/train/weights/last.pt",
+      "sha256": "fab3c823960c541e54b9049b11c73ea711c19b5dac600646ef9f1f8233f5e0dc",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed1_low_single_13tap_train/attempt_20261125_132858_690976/train/weights/last.pt",
+      "sha256": "1946909cecaeeba9c5f517f4516b06bdb6d00041dfad55443fd9c460716e6f2a",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed1_three_13tap_train/attempt_20261125_144444_074380/train/weights/last.pt",
+      "sha256": "a1a9fe14d9e7fdbed56d973c690e6adf0ce532f2d4c99f09d4b735147fde2128",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed2_clean500/attempt_20261125_171133_770861/train/weights/last.pt",
+      "sha256": "345cdc594210e56088ea9ea639830478cded30cbde3bc1138a58c05fbb1ee819",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed2_high_single_13tap_train/attempt_20261126_033104_284649/train/weights/last.pt",
+      "sha256": "db8caaf212e3f90bdd48d2758741eda0e8f473db513f6e52a70982bb38b021cb",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed2_low_single_13tap_train/attempt_20261126_025325_817049/train/weights/last.pt",
+      "sha256": "b57296f22eaf409bda068fa9154bba13b42faa634fd8aa697a501b04baab9827",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_gc10/jobs/seed2_three_13tap_train/attempt_20261126_040850_658940/train/weights/last.pt",
+      "sha256": "6cb358aa436cd6e0a9508c61ca7a9b93bb1a5c58612f1e968f4abbca08ec18fa",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed0_clean500/attempt_20261123_215248_332561/train/weights/last.pt",
+      "sha256": "72856723ffbed32035fb0e5822c6bbec0798ba7213760e830082ae379730854d",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed0_high_single_13tap_train/attempt_20261124_031908_201435/train/weights/last.pt",
+      "sha256": "081b521c039760643aa15041a0f25528dc7a15ee120f4a60e98dada3d1359374",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed0_low_single_13tap_train/attempt_20261124_025946_430306/train/weights/last.pt",
+      "sha256": "a1863fa7cde9f93950a41f791e6f085e5e5c14fa09f4bbaffe047955d92a5d9f",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed0_three_13tap_train/attempt_20261124_033843_225070/train/weights/last.pt",
+      "sha256": "fcf6800347da73ac575c19c598a3fa0eda604838dfe60ffc5b0008fedf0bbd17",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed1_clean500/attempt_20261124_035825_585817/train/weights/last.pt",
+      "sha256": "ce1970d70e8254360ac6e6845058449b00047d0d670574c54ed16044e913c966",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed1_high_single_13tap_train/attempt_20261124_091627_287870/train/weights/last.pt",
+      "sha256": "ce4f698e15f90d7b8f3b3d6a2920b2fef82b2a0d04ce41852152613c9512d6b3",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed1_low_single_13tap_train/attempt_20261124_085702_237848/train/weights/last.pt",
+      "sha256": "286412b81b516475a31bdd3b500d35f62058bbd1f0ca07c7de2b24dd95015c68",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed1_three_13tap_train/attempt_20261124_093602_493526/train/weights/last.pt",
+      "sha256": "09052e7beca75e3b77228212f8227d99d2da7aba01558ddaec31ecb23ce6fcc6",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed2_clean500/attempt_20261124_095544_354439/train/weights/last.pt",
+      "sha256": "32f2590bd495651dc9666fba2bc122a48b9dc01a133f3e9f934f78f05b5ab179",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed2_high_single_13tap_train/attempt_20261124_151128_120835/train/weights/last.pt",
+      "sha256": "1d007975789e3f175af3ab84a593d03a1eac39081937efb485ccfe27913a2bfe",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed2_low_single_13tap_train/attempt_20261124_145235_064576/train/weights/last.pt",
+      "sha256": "49d188be21e0e40ca529e87f478024ed877d77f11bc834663de24dc6000d3d0f",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys113_yolo11_gpu1_v1_20261123_215212_607582/yolo11_neu/jobs/seed2_three_13tap_train/attempt_20261124_153029_013318/train/weights/last.pt",
+      "sha256": "cd735f5c2ab2dcaff77ec28d8b8686143efce01aa682683793009dafb75264e8",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/gc10_seed0_single_13tap_train/attempt_20261122_203834_000081/train/weights/last.pt",
+      "sha256": "d003b020dc8a6df2b166834818be9084294036fb7b65eb311026ce45c6fc2280",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/gc10_seed0_three_13tap_train/attempt_20261122_211440_588007/train/weights/last.pt",
+      "sha256": "a3688ca4ca0f3224abcc852cac3ec312dfb4974e0b9ba4984aec2ddad4500ac6",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/gc10_seed1_single_13tap_train/attempt_20261122_214945_624535/train/weights/last.pt",
+      "sha256": "bbb2f97ad95cdadd7b04cfcdb4357011ab5fd04cf05ad775d9261598b1804f8a",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/gc10_seed1_three_13tap_train/attempt_20261122_222443_951440/train/weights/last.pt",
+      "sha256": "bf6511c59951d82f33ce62958fa085e816a38c0618ee4e58343b29e2b3b51159",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/gc10_seed2_single_13tap_train/attempt_20261122_225930_758233/train/weights/last.pt",
+      "sha256": "7a82a372eaaad56153bb16355bee32d5f2faa9a590a97ae0fdc34c62a2172cde",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/gc10_seed2_three_13tap_train/attempt_20261122_233425_472692/train/weights/last.pt",
+      "sha256": "6b6af781090d67e3517fb8e2d681777179bb59577423e5837dfd881041c67bf3",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/neu_seed0_single_13tap_train/attempt_20261122_185316_154637/train/weights/last.pt",
+      "sha256": "a4d6b3516e1f46794b1a03bc402eb3b9c700c34a1f9a03b6ccd5d888ab0ff3da",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/neu_seed0_three_13tap_train/attempt_20261122_191115_439690/train/weights/last.pt",
+      "sha256": "5010a3ff201eb66df25c8e2226296c8e01c706545be3b7228e79faf4a1bfe187",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/neu_seed1_single_13tap_train/attempt_20261122_192843_667165/train/weights/last.pt",
+      "sha256": "0b7c97c431213bb86a4f9dec7ef869be712774108f1f7c552c46a817e32253b2",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/neu_seed1_three_13tap_train/attempt_20261122_194608_935666/train/weights/last.pt",
+      "sha256": "c4209ef5a7bb935dcdc9300eef1c303dc3e410d42718b9419c81fe84c91d3564",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/neu_seed2_single_13tap_train/attempt_20261122_200331_825862/train/weights/last.pt",
+      "sha256": "597abaf9f785aa3307f967262b63249ef03e50b4c8bd7e73c6e372b31c738d29",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blocksys95_transfer_gpu0_v1_20261122_185258_706063/jobs/neu_seed2_three_13tap_train/attempt_20261122_202058_606414/train/weights/last.pt",
+      "sha256": "9d12b23aa4b3bb59991367a3d760452f295d198378b2c2482018fbe2a7edab8a",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_froc_seed0_gpu0_v1_20261111_144551_508345/jobs/gc10_seed0_motion_low_mean_only_train/attempt_20261111_151328_990919/train/weights/last.pt",
+      "sha256": "67b8f474cd548eb2a7afbd6b0f45b21d5c606f92b824c5616850f3de2ef1095c",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_froc_seed0_gpu0_v1_20261111_144551_508345/jobs/gc10_seed0_motion_mean_only_train/attempt_20261111_155151_000498/train/weights/last.pt",
+      "sha256": "263aab4d8c3f7f263b425883c2413c2b62e87a02db213e3c87a9a1f0b7bb3783",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_froc_seed0_gpu0_v1_20261111_144551_508345/jobs/neu_seed0_motion_low_mean_only_train/attempt_20261111_144841_621714/train/weights/last.pt",
+      "sha256": "178a13a6137e758088bf4135d70ecee3a59a8b44e7720319c0a59c7cbf676b26",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_high_mean_seed2_gpu0_v1_20261112_182530_944624/jobs/gc10_seed2_motion_mean_only_train/attempt_20261112_184942_254868/train/weights/last.pt",
+      "sha256": "65c34e20b63a9e32c910f251a85752969311d61521ffd8651c4c01d98fab8265",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_high_mean_seed2_gpu0_v1_20261112_182530_944624/jobs/neu_seed2_motion_mean_only_train/attempt_20261112_182557_770786/train/weights/last.pt",
+      "sha256": "31260db98232cdb579dd7f51dac47b6af145c4edc0056bb31d0b4f7a1d8027b7",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_mean_overnight_gpu1_v1_20261110_171905_546725/jobs/gc10_seed1_motion_low_mean_only_train/attempt_20261110_175724_742887/train/weights/last.pt",
+      "sha256": "e0f5f5629793460424325fa3ea06e268f926f7ec17767da8aac391d4751d7149",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_mean_overnight_gpu1_v1_20261110_171905_546725/jobs/gc10_seed1_motion_mean_only_train/attempt_20261110_171920_928067/train/weights/last.pt",
+      "sha256": "ead284d209f43248a9bc1bd4e096502c49fa142496bff3fafa35bd545f8ee033",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_mean_overnight_gpu1_v1_20261110_171905_546725/jobs/neu_seed0_motion_mean_only_train/attempt_20261110_190640_313719/train/weights/last.pt",
+      "sha256": "429bbf3f2d250b6e4dfe9c1e67dcd45b7c1c8eb9dd2a4acbc5a3f7e26a4d4e99",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_mean_overnight_gpu1_v1_20261110_171905_546725/jobs/neu_seed1_motion_low_mean_only_train/attempt_20261110_184230_829949/train/weights/last.pt",
+      "sha256": "7eb95cc51cc48151581bb3a834d48752a3afa0aa0b366d549bd52ae50be90f1a",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_operating_mean_mean-control_gpu1_v1_20261110_164148_392751/jobs/mean_training/attempt_20261110_164208_056917/train/weights/last.pt",
+      "sha256": "c37cb11acc2d7f66ec5b33d3617419f607265defc7789a8b60077c098119d70f",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_scale_scan_gpu0_v1_20261111_164644_653000/jobs/gc10_single_match_23_train/attempt_20261111_181203_175591/train/weights/last.pt",
+      "sha256": "a1cb682ee64a0401ada3226bdaabf0a91d01cf3868ac97f09df62822beaa10fd",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_scale_scan_gpu0_v1_20261111_164644_653000/jobs/gc10_single_match_9_train/attempt_20261111_173221_275720/train/weights/last.pt",
+      "sha256": "d879a4730795faa2d52a4292a643b0546a23f9667855708c302eefbfe4328f64",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_scale_scan_gpu0_v1_20261111_164644_653000/jobs/neu_single_match_23_train/attempt_20261111_170820_979563/train/weights/last.pt",
+      "sha256": "2ccc80da5a17ffea5e102b30fd42834f2f7337e40a72a0b1900ea24cc35e23cf",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_scale_scan_gpu0_v1_20261111_164644_653000/jobs/neu_single_match_9_train/attempt_20261111_164704_810778/train/weights/last.pt",
+      "sha256": "720fc47934ff29942f925a02058615dcfa52983cb55f2c3a2117e1fa3c2746ef",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_scale_seed0_gpu0_v1_20261111_193330_768310/jobs/gc10_seed0_match23_train/attempt_20261111_195625_994402/train/weights/last.pt",
+      "sha256": "028014ee602a3ef4c0235372627eb0d0a390c04a5136faac716fc1fe565610ac",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/blur_scale_seed0_gpu0_v1_20261111_193330_768310/jobs/neu_seed0_match23_train/attempt_20261111_193348_017310/train/weights/last.pt",
+      "sha256": "bf4e897fb1ba91340ac3950e79344285f68e40c2d03412c0cb993744795d998d",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/neu_repeats_gpu1_seed1_2_20261029_104901_905338/seed2/dm/train/weights/best.pt",
+      "sha256": "d82a7bae4fe71bbe65a909c030e11ff19cc50b9f6a8c570d286404079b6d93f8",
+      "kind": "checkpoint"
+    },
+    {
+      "path": "records/reproduction_round3_gpu0_v1_20261101_123422_996754/jobs/train_gc10_dm_seed2/attempt_01/train/weights/best.pt",
+      "sha256": "be6b494c885abbcd29f1c6995419cbebc2b615c80a3ea3c5a8ba1df5f9b34e8a",
+      "kind": "checkpoint"
+    }
+  ],
+  "scope": "Assets referenced by available archived reports. This is not a complete from-scratch training dependency closure."
+}

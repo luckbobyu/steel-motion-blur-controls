@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "clean_directory": "BlockSys2027_Reproducibility_Acceptance_20261127_000247",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "checks": [
+    {
+      "step": "table_replay",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"Arithmetic on exported metrics, archived path counts and recorded protocol values. Not GPU training/inference or bootstrap rerun.\",\n  \"core_seed_family_endpoints\": 36,\n  \"distribution_summary_cells\": 100,\n  \"path_records\": 1728,\n  \"budget_settings\": 24,\n  \"transfer_rows\": 10,\n  \"scan_summary_rows\": 48,\n  \"monotone_scan_comparisons\": 54,\n  \"cross_budget_gc10_settings\": 4,\n  \"all_cross_budget_seed_recall_gains_positive\": true,\n  \"all_cross_budget_seed_FP_rates_lower\": true,\n  \"release_files_checked\": 63\n}\n",
+      "stderr": ""
+    },
+    {
+      "step": "kernel_checks",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"numpy\": \"2.3.5\",\n  \"within_detector_arm_checks\": 16,\n  \"new_paths\": 12,\n  \"measured_kernels_checked\": 0,\n  \"measured_archive_supplied\": false,\n  \"moment_tolerance\": 2e-05,\n  \"scope\": \"Discrete kernel construction checks, not detector training or inference.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "step": "count_boundary_tests",
+      "returncode": 0,
+      "stdout": "neu low 0.25 PASS\nneu high 0.25 PASS\ngc10 low 0.25 PASS\ngc10 high 0.25 PASS\n",
+      "stderr": "test_mismatch_is_reported_without_overwriting_source (test_collection.CollectionTests.test_mismatch_is_reported_without_overwriting_source) ... ok\ntest_traversal_is_rejected (test_collection.CollectionTests.test_traversal_is_rejected) ... ok\ntest_duplicate_and_wrong_class_predictions_are_false_positives (test_count_rules.CountRules.test_duplicate_and_wrong_class_predictions_are_false_positives) ... ok\ntest_equal_score_group_cannot_be_split_to_meet_budget (test_count_rules.CountRules.test_equal_score_group_cannot_be_split_to_meet_budget) ... ok\ntest_fewer_fp_tie_break_and_budget_denominator (test_count_rules.CountRules.test_fewer_fp_tie_break_and_budget_denominator) ... ok\ntest_iou_exactly_half_is_matched (test_count_rules.CountRules.test_iou_exactly_half_is_matched) ... ok\ntest_geometry_change_is_rejected (test_inference_comparison.PredictionComparison.test_geometry_change_is_rejected) ... ok\ntest_score_difference_is_reported_without_replacing_counts (test_inference_comparison.PredictionComparison.test_score_difference_is_reported_without_replacing_counts) ... ok\ntest_23_pixel_cache_rejected_for_27_pixel_protocol (test_server_acceptance.ServerAcceptance.test_23_pixel_cache_rejected_for_27_pixel_protocol) ... ok\ntest_archived_counts_and_corrupted_cache (test_server_acceptance.ServerAcceptance.test_archived_counts_and_corrupted_cache) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.990s\n\nOK\n"
+    }
+  ],
+  "GPU_training_or_inference_reexecuted": false,
+  "public_repository_created": false
+}

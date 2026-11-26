@@ -1,0 +1,409 @@
+{
+  "detector": "YOLO11n",
+  "dataset": "neu",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "source": "bundled official ultralytics 8.3.0",
+  "initialization": "random, no COCO pretraining",
+  "clean_epochs": 500,
+  "clean_checkpoint": "last",
+  "continuation_epochs": 30,
+  "arms": [
+    "low_single_13tap",
+    "high_single_13tap",
+    "three_13tap"
+  ],
+  "paired": "same clean seed-specific checkpoint, reset RNG, pre-blur probes and exposures",
+  "validation": "linear23, fixed before test",
+  "budgets": [
+    1.0,
+    0.25
+  ],
+  "tests": [
+    "clean",
+    "linear15",
+    "linear23",
+    "linear27",
+    "measured_path27"
+  ],
+  "policies": {
+    "0": {
+      "low_moment": 12.753302976489067,
+      "high_moment": 22.646595120429993,
+      "three_mean": 22.64659526614893,
+      "reference_exposures": {
+        "9": 1097,
+        "15": 1127,
+        "23": 1031
+      },
+      "low_reference_counts": {
+        "2": 1604,
+        "3": 1651
+      },
+      "samples_per_kernel": 13
+    },
+    "45": {
+      "low_moment": 12.84419326994248,
+      "high_moment": 23.21904980763793,
+      "three_mean": 23.219050100411895,
+      "reference_exposures": {
+        "9": 1110,
+        "15": 1070,
+        "23": 1069
+      },
+      "low_reference_counts": {
+        "2": 1661,
+        "3": 1588
+      },
+      "samples_per_kernel": 13
+    },
+    "90": {
+      "low_moment": 12.509221479296684,
+      "high_moment": 22.77542432397604,
+      "three_mean": 22.775424450310844,
+      "reference_exposures": {
+        "9": 1102,
+        "15": 1026,
+        "23": 1035
+      },
+      "low_reference_counts": {
+        "2": 1623,
+        "3": 1540
+      },
+      "samples_per_kernel": 13
+    },
+    "135": {
+      "low_moment": 12.960053800663445,
+      "high_moment": 23.658349772915244,
+      "three_mean": 23.65834998831203,
+      "reference_exposures": {
+        "9": 1030,
+        "15": 1059,
+        "23": 1071
+      },
+      "low_reference_counts": {
+        "2": 1585,
+        "3": 1575
+      },
+      "samples_per_kernel": 13
+    }
+  },
+  "measured_paths": {
+    "measured_23_walk01": {
+      "trajectory": 1,
+      "source_samples": 167,
+      "source_projected_rms_px": 5.9615911685120375,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000119209108,
+      "kernel_shape": [
+        19,
+        19
+      ],
+      "kernel_sha256": "b25a78372765879b55acf200eb132fbae732c79439e8d5c875101bc90c182753"
+    },
+    "measured_27_walk01": {
+      "trajectory": 1,
+      "source_samples": 167,
+      "source_projected_rms_px": 5.9615911685120375,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666727493157,
+      "kernel_shape": [
+        21,
+        21
+      ],
+      "kernel_sha256": "1380121dc8617061cf122895409dfe944e9e77157363f93790dd47a0fe4c74fa"
+    },
+    "measured_23_walk02": {
+      "trajectory": 2,
+      "source_samples": 167,
+      "source_projected_rms_px": 3.3539772015520035,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000085008469,
+      "kernel_shape": [
+        23,
+        23
+      ],
+      "kernel_sha256": "413aa3183812834292fbd1ac5e63cf854d235a7ebe6df13ebef6f28f9cffbbf9"
+    },
+    "measured_27_walk02": {
+      "trajectory": 2,
+      "source_samples": 167,
+      "source_projected_rms_px": 3.3539772015520035,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666696471657,
+      "kernel_shape": [
+        27,
+        27
+      ],
+      "kernel_sha256": "3ae7ded146cdd1bb6757b811044c979a7970faeaf4c9cc4a26ac8829ec0a6b87"
+    },
+    "measured_23_walk03": {
+      "trajectory": 3,
+      "source_samples": 167,
+      "source_projected_rms_px": 1.7647853919494376,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.000000820551804,
+      "kernel_shape": [
+        39,
+        39
+      ],
+      "kernel_sha256": "cb266473033b85d429a125823c97551c6be562e37576bdf827ae1f0bd0d74464"
+    },
+    "measured_27_walk03": {
+      "trajectory": 3,
+      "source_samples": 167,
+      "source_projected_rms_px": 1.7647853919494376,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666711985454,
+      "kernel_shape": [
+        45,
+        45
+      ],
+      "kernel_sha256": "fc4e14acd44a20941d426518be2216baf05e63b81d25daf49f89541455815bf1"
+    },
+    "measured_23_walk04": {
+      "trajectory": 4,
+      "source_samples": 167,
+      "source_projected_rms_px": 2.769465549414397,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000084418296,
+      "kernel_shape": [
+        19,
+        19
+      ],
+      "kernel_sha256": "660109029d5e83fc3b46ff9bb7fcddc552104ed243fa81fc8b291c2a23ab0e40"
+    },
+    "measured_27_walk04": {
+      "trajectory": 4,
+      "source_samples": 167,
+      "source_projected_rms_px": 2.769465549414397,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666681266793,
+      "kernel_shape": [
+        23,
+        23
+      ],
+      "kernel_sha256": "51fd97e24f56bc2f1383209a510ec9c70bfb72ce1c8f66bc333d7b7d029708bf"
+    },
+    "measured_23_walk05": {
+      "trajectory": 5,
+      "source_samples": 167,
+      "source_projected_rms_px": 6.632026629229579,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000066826169,
+      "kernel_shape": [
+        25,
+        25
+      ],
+      "kernel_sha256": "7f4a86491d766bcdd0e80b5c82d66a243449c3aafb213f861073aec5256168ad"
+    },
+    "measured_27_walk05": {
+      "trajectory": 5,
+      "source_samples": 167,
+      "source_projected_rms_px": 6.632026629229579,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666698647134,
+      "kernel_shape": [
+        29,
+        29
+      ],
+      "kernel_sha256": "b0b745fd3c6299aad6844766c2ba5155c5b37713da540bb16a501585e76b32bd"
+    },
+    "measured_23_walk06": {
+      "trajectory": 6,
+      "source_samples": 167,
+      "source_projected_rms_px": 4.6839951453767315,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000077044933,
+      "kernel_shape": [
+        23,
+        23
+      ],
+      "kernel_sha256": "8dcee0ec2a402d6ae6b437730bc90218c933294f0cb5f0ec7f2a7baf2ff86712"
+    },
+    "measured_27_walk06": {
+      "trajectory": 6,
+      "source_samples": 167,
+      "source_projected_rms_px": 4.6839951453767315,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.666667140988466,
+      "kernel_shape": [
+        27,
+        27
+      ],
+      "kernel_sha256": "aa84f396f369eb796e622de3e39141a6fdf351f4aededbb4212af6bfca00c474"
+    },
+    "measured_23_walk07": {
+      "trajectory": 7,
+      "source_samples": 167,
+      "source_projected_rms_px": 5.5716697257042345,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000079807387,
+      "kernel_shape": [
+        27,
+        27
+      ],
+      "kernel_sha256": "afc031829cd9a2bfc72890d17c4ff3627e34786161bfb13521ef38ec2c07cca6"
+    },
+    "measured_27_walk07": {
+      "trajectory": 7,
+      "source_samples": 167,
+      "source_projected_rms_px": 5.5716697257042345,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666688711666,
+      "kernel_shape": [
+        31,
+        31
+      ],
+      "kernel_sha256": "bb59d573e4cf808ee8876a88c5b6a70610e0e3269bffaf40e2b7af3ffc193655"
+    },
+    "measured_23_walk08": {
+      "trajectory": 8,
+      "source_samples": 167,
+      "source_projected_rms_px": 32.48896165615044,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.000000680655546,
+      "kernel_shape": [
+        21,
+        21
+      ],
+      "kernel_sha256": "53ac63ad5630a26fecd6a82504bbe288e4355c9644700052f85745db04745edf"
+    },
+    "measured_27_walk08": {
+      "trajectory": 8,
+      "source_samples": 167,
+      "source_projected_rms_px": 32.48896165615044,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666695039385,
+      "kernel_shape": [
+        23,
+        23
+      ],
+      "kernel_sha256": "1b40fdf85bab48b98b8cf7f99f418e875d3b9b80c0f1e0c46292f41209fc5bf6"
+    },
+    "measured_23_walk09": {
+      "trajectory": 9,
+      "source_samples": 167,
+      "source_projected_rms_px": 30.38507946276734,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000083238501,
+      "kernel_shape": [
+        25,
+        25
+      ],
+      "kernel_sha256": "1b7409d6fac07b7585d53776b6183e09e84fb667c0ff35659197f1f12727b711"
+    },
+    "measured_27_walk09": {
+      "trajectory": 9,
+      "source_samples": 167,
+      "source_projected_rms_px": 30.38507946276734,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.666667153498565,
+      "kernel_shape": [
+        29,
+        29
+      ],
+      "kernel_sha256": "bb50f7729319d3d317a49b291fff16bccd6d7b9e28ae98c513bdc66c37ebebbc"
+    },
+    "measured_23_walk10": {
+      "trajectory": 10,
+      "source_samples": 167,
+      "source_projected_rms_px": 25.205372912586714,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.000000740801624,
+      "kernel_shape": [
+        27,
+        27
+      ],
+      "kernel_sha256": "4a941a8338325550cda9234170fb723593ab59b799aa2e53997c5fda6bdcceb2"
+    },
+    "measured_27_walk10": {
+      "trajectory": 10,
+      "source_samples": 167,
+      "source_projected_rms_px": 25.205372912586714,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.66666719193381,
+      "kernel_shape": [
+        31,
+        31
+      ],
+      "kernel_sha256": "f9857570af0a26f59efc2dbbb200acde5327742274d6c5f53bd46ea2b5fc4606"
+    },
+    "measured_23_walk11": {
+      "trajectory": 11,
+      "source_samples": 167,
+      "source_projected_rms_px": 8.959094144598575,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.00000075979369,
+      "kernel_shape": [
+        27,
+        27
+      ],
+      "kernel_sha256": "5dd5c6706934009f49cc7d0d527e5ca66857eed65a07903e6c904df501f6670f"
+    },
+    "measured_27_walk11": {
+      "trajectory": 11,
+      "source_samples": 167,
+      "source_projected_rms_px": 8.959094144598575,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.666667180805405,
+      "kernel_shape": [
+        31,
+        31
+      ],
+      "kernel_sha256": "83c7d92692cb0a88b3b202c09fdbe268335a2767d84de19346ec4a10aca48336"
+    },
+    "measured_23_walk12": {
+      "trajectory": 12,
+      "source_samples": 167,
+      "source_projected_rms_px": 7.465682403310112,
+      "reference_length_px": 23,
+      "target_second_moment_px2": 44.000000819563866,
+      "actual_second_moment_px2": 44.000000976015144,
+      "kernel_shape": [
+        23,
+        23
+      ],
+      "kernel_sha256": "a289e945997695720b6be3592d40d298007605faaf9f3e097935b7ae9367912d"
+    },
+    "measured_27_walk12": {
+      "trajectory": 12,
+      "source_samples": 167,
+      "source_projected_rms_px": 7.465682403310112,
+      "reference_length_px": 27,
+      "target_second_moment_px2": 60.666667118668556,
+      "actual_second_moment_px2": 60.666667030278404,
+      "kernel_shape": [
+        27,
+        27
+      ],
+      "kernel_sha256": "c05f9f3cf364e1f8dc3de26478c52aa6a10c18d9f6e9f418a58c8aaa9dad3753"
+    }
+  },
+  "scope": "within-detector strength/distribution comparisons; not a same-software architectural ranking against the historical fork"
+}

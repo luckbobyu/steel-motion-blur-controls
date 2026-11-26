@@ -1,0 +1,31 @@
+[
+  {
+    "file": "run_neu_motion_control_v1.py",
+    "sha256": "56b64ae70c24a97d6c692205a049e3673749b89f844dff98a172a446680c5059",
+    "functions": [
+      "line_kernel"
+    ]
+  },
+  {
+    "file": "run_neu_matched_strength_v1.py",
+    "sha256": "ff3ec752eaf6d31d6607e01cebe8188fcc2f6fcee73cff5ab005709b01a4634b",
+    "functions": [
+      "moment",
+      "sample_slot"
+    ]
+  },
+  {
+    "file": "run_blur_paper_supplement_v1.py",
+    "sha256": "1ac7969c24dbbadbd59677a76efd491fb1a8012ae04c4ee1034f2ead48a738e9",
+    "functions": [
+      "raster"
+    ]
+  },
+  {
+    "file": "run_blur_paper_measured_v1.py",
+    "sha256": "1d56cb643e4f48180c318b6ca15ea5db3e4c273e9cfb59af35608d10d1164cc6",
+    "functions": [
+      "read_paths"
+    ]
+  }
+]

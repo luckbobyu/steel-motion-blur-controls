@@ -1,0 +1,25 @@
+{
+  "status": "COLLECTED",
+  "checked_assets": 92,
+  "asset_status_counts": {
+    "MATCH": 92,
+    "MISSING": 0,
+    "HASH_MISMATCH": 0,
+    "ERROR": 0
+  },
+  "kinds": {
+    "checkpoint": 68,
+    "predictions": 24
+  },
+  "dataset_files_indexed": 8196,
+  "datasets": {
+    "NEU_DET_author": 3600,
+    "GC10_DET_author": 4596
+  },
+  "kernel_source_fingerprints_match_server": true,
+  "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+  "GPU_training_or_inference_reexecuted": false,
+  "prediction_counts_reexecuted": false,
+  "scope": "Original asset presence and integrity only; not independent numerical reproduction.",
+  "feedback_zip_sha256": "477898d7f9b71e2cba6aaf2491bc99cf4e58875341d7e06e0484cf4d665d3411"
+}
