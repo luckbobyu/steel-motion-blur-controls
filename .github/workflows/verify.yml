@@ -1,0 +1,27 @@
+name: Verify exported study artifact
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  metrics:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.9', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python scripts/reproduce.py
+      - run: python -m unittest discover -s tests -v
+  kernels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-kernels.txt
+      - run: python scripts/generate_kernels.py
