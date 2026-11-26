@@ -1,0 +1,134 @@
+{
+  "protocol": "DM linear27 validation, four directions; fixed cutoffs; never substitute strong_23 caches",
+  "validation_jobs": [
+    {
+      "dataset": "neu",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_0",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_low_validation27_unseen_27_0/attempt_20261125_204408_535104/report.json",
+      "sha256": "8ba5ace61a6bdffe471f16e52bf92a69dbd5bcfdd9bcfdb8d2f61ed09033f7f8"
+    },
+    {
+      "dataset": "neu",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_45",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_low_validation27_unseen_27_45/attempt_20261125_204411_693857/report.json",
+      "sha256": "63bf08ac3d38bdf0cba62dbb950bda3f46419e6968eacb84f551eaa895b00d0a"
+    },
+    {
+      "dataset": "neu",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_90",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_low_validation27_unseen_27_90/attempt_20261125_204414_683172/report.json",
+      "sha256": "acde61355d17fe7ca790e17b8fdd512afc10141bf064543aa3eb95e96a990f4f"
+    },
+    {
+      "dataset": "neu",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_135",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_low_validation27_unseen_27_135/attempt_20261125_204417_665956/report.json",
+      "sha256": "95119dae81e110102f100b4c7684a5bab30bee19eb3d1936e870c18b934fd0b0"
+    },
+    {
+      "dataset": "neu",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_0",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_high_validation27_unseen_27_0/attempt_20261125_204423_685548/report.json",
+      "sha256": "14f1e87612a29071c31229b907e922f43c997e10ce983e6c5fb0fd038e997c79"
+    },
+    {
+      "dataset": "neu",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_45",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_high_validation27_unseen_27_45/attempt_20261125_204426_904857/report.json",
+      "sha256": "f72567920185ba68c8f36363edac161e15b44db9b077afd78a78b54aee499c21"
+    },
+    {
+      "dataset": "neu",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_90",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_high_validation27_unseen_27_90/attempt_20261125_204429_962900/report.json",
+      "sha256": "ed1740960c597b3e229eca5949ae781cc733875d92c968b42204812d09804ac0"
+    },
+    {
+      "dataset": "neu",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_135",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/neu_seed2_high_validation27_unseen_27_135/attempt_20261125_204433_038863/report.json",
+      "sha256": "11442b06d810a376e08587e96d59c22e908c572662083f4449e37bc37fdf7011"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_0",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_low_validation27_unseen_27_0/attempt_20261125_210434_894194/report.json",
+      "sha256": "f90bd04c0527104f9cc4927bc3b902d2dda95612709365b0c1a952be86a87449"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_45",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_low_validation27_unseen_27_45/attempt_20261125_210441_192810/report.json",
+      "sha256": "59cd73e6fc3e179293b0902e903fecf31717dd66ee698d119746f89c2f368f5f"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_90",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_low_validation27_unseen_27_90/attempt_20261125_210447_367053/report.json",
+      "sha256": "5823482a1cdcecba92cce2eda3f702144c5032f3ae4c33466d44ad60db141ab7"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "low",
+      "seed": 2,
+      "condition": "unseen_27_135",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_low_validation27_unseen_27_135/attempt_20261125_210453_518191/report.json",
+      "sha256": "cde7f7e10bceab628e9144ec6ed10724e97b694fe153b597e8f6ee5f611a104a"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_0",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_high_validation27_unseen_27_0/attempt_20261125_210501_809988/report.json",
+      "sha256": "b9d19ee7482f6fb606a833086ba631458c6f6b1f30c8aac7e5e7a0a06106dda0"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_45",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_high_validation27_unseen_27_45/attempt_20261125_210508_224747/report.json",
+      "sha256": "1239ebfd869b133abb803e19bb242177ac64e107f8365963f725f319015b7123"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_90",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_high_validation27_unseen_27_90/attempt_20261125_210514_405660/report.json",
+      "sha256": "de2b47b166c72435968502dc10e08769b10feead4d8ca7487450a0eb9bf24b23"
+    },
+    {
+      "dataset": "gc10",
+      "arm": "high",
+      "seed": 2,
+      "condition": "unseen_27_135",
+      "report": "records/blocksys115_eval_gpu0_v1_20261125_202139_686646/dm_headroom/jobs/gc10_seed2_high_validation27_unseen_27_135/attempt_20261125_210520_694709/report.json",
+      "sha256": "bd1bb9e9af74cf3f91cf156ec9fa8e9aaf5a276bbc9a2206b3b44c80d5bd93ad"
+    }
+  ],
+  "source_parent_report_sha256": "a0af9659b090c3846354f71e0b54ef84cf7df8fcc0cd8ec772049a616d4adcd9"
+}

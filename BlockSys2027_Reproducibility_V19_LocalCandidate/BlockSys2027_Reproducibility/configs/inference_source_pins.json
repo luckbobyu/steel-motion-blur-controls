@@ -1,0 +1,1745 @@
+{
+  "purpose": "Pin the existing historical lab runtime for limited checkpoint inference; no training runner is invoked.",
+  "files": [
+    {
+      "path": "code/DM-YOLO/FPS.py",
+      "sha256": "212c566ac2f40cb1ca039d493e494b3b4feb25dcef3804717e32c8a7ab5756db"
+    },
+    {
+      "path": "code/DM-YOLO/LICENSE",
+      "sha256": "4a6fdf3e0ddc92a35e6e829c6e5a6e3c169dc304ef95ac100b25535d5f48d3d7"
+    },
+    {
+      "path": "code/DM-YOLO/test.py",
+      "sha256": "24b762b9769f7c3cbb3ed63492883d2ea511f1254896e9f833a3c74be87f3532"
+    },
+    {
+      "path": "code/DM-YOLO/track.py",
+      "sha256": "e19160b357ecf3b764e72b7e03edce5c78d76caa89dc680d845d5a4fa5f419d2"
+    },
+    {
+      "path": "code/DM-YOLO/train.py",
+      "sha256": "237b3c7f0ea3e2f5191e369f5cc3bd8e52911a0a99f98afa11c7c5a2ffc14241"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/__init__.py",
+      "sha256": "0c8d46351885d7bc6845256b1c809e03109c8327db7190a759d849e8f750523f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/.ipynb_checkpoints/default-checkpoint.yaml",
+      "sha256": "5d8fa8aae6966463b1418320d8bebbffd6c0c7cd871ea69981ce1ad184763ab7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/__init__.py",
+      "sha256": "7c3dcb970d76b08909a3883aebbb7a6f4e758def67129c1d04b1a06db544cc76"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/Argoverse.yaml",
+      "sha256": "1727ae253e421eaffd7788657c07f49296659db50c3b44bef94275c88a9c74a9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/DOTAv1.5.yaml",
+      "sha256": "4157e9fd0a7ee2bba4ba271a078ab1f3a37148733c32bcf29bc97f7c80e8f20c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/DOTAv1.yaml",
+      "sha256": "b317b63fb9d8f9c08fb9f1f71b5a729a7415b4da061f5cb41131b90b259f2bd8"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/GlobalWheat2020.yaml",
+      "sha256": "7f1589bf41213104c20ba369735dd9611860f8479d2e650ec514177ded46aee4"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/ImageNet.yaml",
+      "sha256": "3f9b74af030d657da2bbba28064779c528bbe66eba71c0733b45e20400461a15"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/Objects365.yaml",
+      "sha256": "922895e0a2cc1f699c3cf46b83a7101b28276e24eb1f1c2d02003486deb0716e"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/SKU-110K.yaml",
+      "sha256": "81e46471c05197678a81f3584ce3d8c03f664dfaa4b5304688c2681373d91270"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/VOC.yaml",
+      "sha256": "a3205c238c9b3632947355324bcae0863686b335cc01bbd92f508ae6ccdf1aa8"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/VisDrone.yaml",
+      "sha256": "5d1c8bc35ea7a223989c45b8303094e61aa319658c2aaeafa6afbaa064dc5394"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/african-wildlife.yaml",
+      "sha256": "64cb6135c42c93dedac04be76a9f0ec9d777497b837e963f3a38179f0f229ea7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/brain-tumor.yaml",
+      "sha256": "1d34000bcdeb3cb1722c1b5d56f861d00ecb05b3eba5d55f0f7dae3925010c14"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/carparts-seg.yaml",
+      "sha256": "f1774a7961fe2d2175084958b0a4ae4226bc5364a3f2eadb03cf1a4ee132c9f1"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/coco-pose.yaml",
+      "sha256": "abc5c24daf813cea779421438197564c346d9e40654bf30e5d5b247761049ca4"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/coco.yaml",
+      "sha256": "bd6f98a2e18775c39a4d5214080c87fcb163d367c18a2fcf2609371bab00c0b8"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/coco128-seg.yaml",
+      "sha256": "53b38b0097caf73add88beec54307eec2a700b6144b9c5cad831c9be7fdec21f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/coco128.yaml",
+      "sha256": "5e5fdd672914b033e0a1fcbda3e16310cf9d9007f64f6b0666392c001a03ed13"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/coco8-pose.yaml",
+      "sha256": "8746507c71a8786ef6e27de34ef1e42ce6e76197cd0e568e65224ba0f015f34d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/coco8-seg.yaml",
+      "sha256": "b053114c96b6011a6a02dafee74492fd1901e0aa1cce601a98ae82eea21f01df"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/coco8.yaml",
+      "sha256": "dff94d94ca38d117f9da8c4e9c023269fed939d574fb3f8672ffae316980134b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/crack-seg.yaml",
+      "sha256": "ac9da76f17251e3ac43193f05027473b6ca37ee0190687a4b87e34a0fe477cd0"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/dota8.yaml",
+      "sha256": "77ae454c6089cd93c855eb5f792fbf7deb212a3a180ec7755ea6d6a02deeead2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/lvis.yaml",
+      "sha256": "af2b30726df6bc3019dfef2b5b1d185b352fe2474e10f620d8e851b7e52cc291"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/open-images-v7.yaml",
+      "sha256": "82c3742572d27508258a8d36e29e8d11e80d6d7d3a90950dba3d1b87da048be5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/package-seg.yaml",
+      "sha256": "ea23e964e3f4c60ad370ef0301934f185949c2b627e5b0e0c7e169127bf652df"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/signature.yaml",
+      "sha256": "a933942d97f427d852ed95d577fb0f27cba835599b2a7a99e8a826fc48e65e96"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/tiger-pose.yaml",
+      "sha256": "b54f3cc5d280a0dd831570e4d8d30757bcbd6c2d87189085d0bbd356f09a08d1"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/datasets/xView.yaml",
+      "sha256": "ae340f44d93efa395837dc1c553bb529ba2981922459786bfecd5491275c111b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/default.yaml",
+      "sha256": "5d8fa8aae6966463b1418320d8bebbffd6c0c7cd871ea69981ce1ad184763ab7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/rt-detr/rtdetr-l.yaml",
+      "sha256": "35bce2f77b40261070ebd8543419335da78c316c16ead59e02c74df329ebcae5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/rt-detr/rtdetr-resnet101.yaml",
+      "sha256": "a349d6a0a7224febf2a42d9e4b9a8811635269cd0beafc0bb5b2bdb9c425b86e"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/rt-detr/rtdetr-resnet50.yaml",
+      "sha256": "adbeb85902beddafcf79b51ccba09ba6c92f942ef81fd337b4c22bdd1e6f1c35"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/rt-detr/rtdetr-x.yaml",
+      "sha256": "139bada8d2fba0dcedc8f2b24863e85444fc44851ea80a9c85d6ac96ee596f98"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v10/yolov10b.yaml",
+      "sha256": "ac44a04727c4cafc39410dea05b3e6cc14642997ab1c9a117e364c1d301cec00"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v10/yolov10l.yaml",
+      "sha256": "151e92943ad9e53547da3431a192d41278e85765999ed6e60e8b13562375bd0c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v10/yolov10m.yaml",
+      "sha256": "b7845e93a11c9772fce9387145042bcc9985054419849c029f5771e6fb9ea0b8"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v10/yolov10n.yaml",
+      "sha256": "b5ac79313c284256529aacb65b4f0222d6dac3426a0919cdc3beec44c3796412"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v10/yolov10s.yaml",
+      "sha256": "b06125bb417decd46446931ff4c22a124afd3262e6c4798cbe6528954f5b32d9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v10/yolov10x.yaml",
+      "sha256": "13d77523a40a72ef17aa440ac850003dc20b72cef5ee5aa46ab87daa17b7069e"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v3/yolov3-spp.yaml",
+      "sha256": "35f289781a438034b05e8edf48df26c90510ebc60b07dc51b6a7418069553c7b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v3/yolov3-tiny.yaml",
+      "sha256": "e669c618237e98d0efaaf3b3d80cc685fc04834d5ec7378734f4b7340de9a226"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v3/yolov3.yaml",
+      "sha256": "fbde29e2d78f743b5da67cfbf6eeced6c0a157af644e2d35945c5c546a09f0c6"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v5/yolov5-p6.yaml",
+      "sha256": "dac9822ae193f10dbade2d0898924d53c3abf975e6b8b31ff496a7066e138e21"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v5/yolov5.yaml",
+      "sha256": "b1139057cb60bfa94b460c70043228f4c6b3ecd509818651fc8e0c6ccf4ed414"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v6/yolov6.yaml",
+      "sha256": "49bd279a6b5daaa1c216e131c93f878a9d7464be26e776e16252a07b49051826"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/.ipynb_checkpoints/yolov8-checkpoint.yaml",
+      "sha256": "56349efd5d869fd66926bc13b73d00ebfe88329e94bae80d891eda112851e6b7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-cls-resnet101.yaml",
+      "sha256": "b82ea49742efbe56fc6e820e47b05d02a6134bc62e707ffdd591b7a4e5884bb4"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-cls-resnet50.yaml",
+      "sha256": "16090d99c80b8c0414df8ba41f82cc23acdcd6968ef23ee3caaaf1fb7aa38bd0"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-cls.yaml",
+      "sha256": "fae37821a0871419b2275659d3d87677ccf771e5684965c3e3875b151b0179a0"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
+      "sha256": "6e7e431f0c19de603152f6b2c2aefaff824d81669b3053029c23684e92d20ca9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
+      "sha256": "92a81b10a36e6bb5f01fde73b5e5ba2335da0238da580d258f3982008edbf04f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-ghost.yaml",
+      "sha256": "5941ce235f1a035d648003430966c30f2de3b303653ff9c8929597d3d05f06e2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-obb.yaml",
+      "sha256": "4efe490d94cb3ab7f2063de082ab1ef528630e933e9c8148c618ac7902b02440"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-p2.yaml",
+      "sha256": "b5f1e4915002d1f90273b01b8ac4f31a95d6dc57e4dbe2b9fb08d17926e6ec6c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-p6.yaml",
+      "sha256": "9401404b01618ef5297c2773ae7199894e05cbd1306c9e506c986b472526db5d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-pose-p6.yaml",
+      "sha256": "cb3c48db46cc05da3a7f991de7755fb841e6fd0a84fd5deec00bc5244d136ebd"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-pose.yaml",
+      "sha256": "0c7a0977babb1f0f3d2415f98a6f8cdcd586f2681edd574f54d6f82b88d3cc84"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-rtdetr.yaml",
+      "sha256": "a1fba37fbecb5b7b2d5d2ebe95e54cfc4c5139689f27ce03e56a9186e8f25492"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-seg-p6.yaml",
+      "sha256": "39f30b30704e63a76de3f62c36e3c03463f033704f05fee2fd5ded40fc84c581"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-seg.yaml",
+      "sha256": "7cdf399bf6833021f8a13277cfe7edf7c3dd87a764d29661e280752c89e826b0"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-world.yaml",
+      "sha256": "4574e9fed822c7c75b9d51e9adaa7188ad9a6b1eccdaa21f9ae47e680bdee2c5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8-worldv2.yaml",
+      "sha256": "7ef195531be504e8cde8b52289a886b278cae592a3c18196c60909e3d84698c8"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v8/yolov8.yaml",
+      "sha256": "56349efd5d869fd66926bc13b73d00ebfe88329e94bae80d891eda112851e6b7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v9/yolov9c-seg.yaml",
+      "sha256": "06579df554ff5f700619ef4e0135c603c6ababf5126c651cf298eccbaf3803bc"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v9/yolov9c.yaml",
+      "sha256": "bcf7d86dd0c38366839b6c9545fca35cd3a016bc93516146eb495c1d08cba6e0"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v9/yolov9e-seg.yaml",
+      "sha256": "c9c31ec41daa29db5efa1928ed217d3d8e2a3a78359a8228abeb2c8386b7b5e0"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v9/yolov9e.yaml",
+      "sha256": "761691e3b5b1b8b3ab6560c271e4b86d01b4d2c41dacc73c150e4ade62ac9da5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v9/yolov9m.yaml",
+      "sha256": "97a0a68afccdbb8e2c4559a4417938fad5df95b5759d69e4e4c49cf2cbb6be1b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v9/yolov9s.yaml",
+      "sha256": "94f59cbbeeae6f5902043eb3203170b61619dd1bdd25f38358acb7bc4416463a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/models/v9/yolov9t.yaml",
+      "sha256": "a8bfff92be86a1e7e94163f88d5d23773c13a78e9b74551caad3d19df0db918f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/trackers/botsort.yaml",
+      "sha256": "62b3e68f5f29d54538d24247e4d45d2ffe12f1fee49e082493fab62989d5b9da"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/cfg/trackers/bytetrack.yaml",
+      "sha256": "42f1e6b6ec2e94ae17ea3dd3e5512ab429b4b1b59605456658f70270cdb4a9ed"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/__init__.py",
+      "sha256": "5467be0131bb8f7e45e00e2bf099b37df8e586f7b824024f8116b96a1293535f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/annotator.py",
+      "sha256": "d47caeeae6eb04bf0a991aedd647869fe2b85d3a907405722304ec42206dccb5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/augment.py",
+      "sha256": "89891380792661907230282675aad7d8ceb18a12ac24dd525c2f60eef6941131"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/base.py",
+      "sha256": "0b7b5e2e7c3ded94dba491d3f4fef2616a2c00aa1c3338098d17b5af181fa65b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/build.py",
+      "sha256": "01f326cf4b072189b0af2ffdd2d10915193f933d12dd2a2549c557a981e24f4f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/converter.py",
+      "sha256": "efae34c4ab9fecb3dea13c280af81b217339c5bcf2abbd87bb645fda5ae08d16"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/dataset.py",
+      "sha256": "6419cef4a3d53895f02906cdd8b96644e2312c46f49ada6955096b0b8b17de81"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/explorer/__init__.py",
+      "sha256": "f98de6d5979d7a939052ffca5bcdb3686c6f53f3d21dcbb051316a1bd06102be"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/explorer/explorer.py",
+      "sha256": "de9b876c3160a048e24642f328e19cd422d350d6ea26b2ebabc31e0582de0457"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/explorer/gui/__init__.py",
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/explorer/gui/dash.py",
+      "sha256": "bd9e3be8d6941f814a534f2b009d4af563722ad834b28332249c6a835efac967"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/explorer/utils.py",
+      "sha256": "12fbee91089051306bb19ce798c9f2117d84a93bb0668fc67b273cc9f8bc3480"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/loaders.py",
+      "sha256": "bf2ef54f32803eaa210a9e0c0cd42989ad824752da3b1014e5e035e03a272685"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/split_dota.py",
+      "sha256": "7d67b3b75068de3899e80c9459d06d4d4baf2da98fbf5b7b243f838ab33d810f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/data/utils.py",
+      "sha256": "1879aac7a7b9c917dc503d9093093eb507e15c2c2d50c143dd47fa77af7d9c6a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/__init__.py",
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/exporter.py",
+      "sha256": "10cdf930e3d66c8284d92849b0fcddac49ab8f3c194a9f605beacef061056a5d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/model.py",
+      "sha256": "f184b12da9f539f57f2329c24230336864b880259311b18b7d45a77d30f186c1"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/predictor.py",
+      "sha256": "5b9f240c2147d807e8173a466e8b3793ccd4115b0bba706e33cb1cd81eb8acf6"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/results.py",
+      "sha256": "a0d03348a74ac71c7fe5041df68a7309ebef80f86ca5d6390645b1a33e5b43c1"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/trainer.py",
+      "sha256": "7ac4211b75c9505d6fb25e3d19abe7aa92f4b6f319218f92c03fe1c355e659d5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/tuner.py",
+      "sha256": "899ae03265d20e97ee0eee1b74545f96602cb1ccacdbef16f2a006c52c8e5491"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/engine/validator.py",
+      "sha256": "636d54a3cfd9b68e2a8e4fd8a9093a93bb727e9abf424f5c7e37977b20d1c6cf"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/hub/__init__.py",
+      "sha256": "f776ea23cc7cf8c7c361d2a441576eba87148908f75869e4d67224d258b4f330"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/hub/auth.py",
+      "sha256": "1480f9f0d13a7e1ecea7f078e503a9581c35aa804dd29a272f5eaebf26f6759f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/hub/session.py",
+      "sha256": "505fda570cb19db3fe3b3a73297186862e22e8a1968e38688f942c9f8e9d1691"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/hub/utils.py",
+      "sha256": "b577ccdd06d705c7f863a4ad807235a64b53e0e33b21cf5e177c620451c69616"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/__init__.py",
+      "sha256": "4d3f622c22ff9fd63cd1d714ab4168fa9f86459092536beb5973370a8330aaa1"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/fastsam/__init__.py",
+      "sha256": "d1db7ae6367fe5bed0fa675737c312124827151034148c257a5fcb4b645a3a55"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/fastsam/model.py",
+      "sha256": "73b186c1a6bd017b2c245c2b72ecad147a4f3a5812ad2de7d2eb727f82522f6a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/fastsam/predict.py",
+      "sha256": "fdb39253be6a2cad57112c65f975b548ec6b882697ee7b2f979c787b11bf7384"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/fastsam/prompt.py",
+      "sha256": "e1df5ed5f12e1a94cf5917eedeb1ba1d3f01734aeda89b51a4dae51e49a429c6"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/fastsam/utils.py",
+      "sha256": "7424a6ea5e72b9afcf4d3e5a36fc8ebe7d50d21e364dafcda2f3bbb136ec0713"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/fastsam/val.py",
+      "sha256": "20b2a6c3753c1589a642c3bdc24f7e6c9f4fca9fd9b6124cdfa6fad4bef9b376"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/nas/__init__.py",
+      "sha256": "77af964eb60b5ef6cfb39f1e6c0d3ee7cdce0e2f95cb35dcfade1a1880d02ba3"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/nas/model.py",
+      "sha256": "ec00846e2f9b3794a8078c69bdecec1d98888b46cf89d9388475f7f9bed62a71"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/nas/predict.py",
+      "sha256": "b91b6bf612f09061b4c379580e08aea9dd1ab5a43f45847f050758d2a333e4d2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/nas/val.py",
+      "sha256": "b5545f504cb5bc41baecee49650cd03b480f1e3b7f59688fbd1bcf960fc1b608"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/rtdetr/__init__.py",
+      "sha256": "01981ad42dea9464ed82902ea435b87688a3ab9699950785f1ee79fc33f651ab"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/rtdetr/model.py",
+      "sha256": "d95929a45d7fe7cd57990d1423b968f1f5fb32a84024f5d532bda3c8c1d7b5b9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/rtdetr/predict.py",
+      "sha256": "1a678d885b330da8eaf5834f8b48d6f3d0aa3f43110f91ad9a8921f73d090107"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/rtdetr/train.py",
+      "sha256": "db40056155bd34fc70d3e729fac45d228bd689d14bd08221251bf6a198e43e53"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/rtdetr/val.py",
+      "sha256": "e10400add686118f2b26c26ebf2274df67fc186546755da35111cad8474cc729"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/__init__.py",
+      "sha256": "f40d62c9f3cdfe772aab74cc1317bffae3e80118c45f7a6ca07108d71306d951"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/amg.py",
+      "sha256": "1ded9ce2722867ffc5fe92f5f2b465dbbf11f2206359704cd99fefc5fb953a49"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/build.py",
+      "sha256": "fa2faf8f47a043689d05951fdd77fe1fcf50793a0cde4cb41d3c4a3ff2845d3b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/model.py",
+      "sha256": "764121a8911916e4a82ae6cc6808d4c7553d369e3d0082379c149c747f2b3012"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/modules/__init__.py",
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/modules/decoders.py",
+      "sha256": "ecd5a704dba9c4662f1f44b537447a3411f175515152bae72fd12a030d3d2781"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/modules/encoders.py",
+      "sha256": "a513591f3b76276c43fc3d01b6ef299380dc22d7ebe9d46bf6b7117f1a196615"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/modules/sam.py",
+      "sha256": "cc2e25e2472b2100ff7a47338e5da5e9d81a001aaa8d1399c50f850dbfa2b6dd"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/modules/tiny_encoder.py",
+      "sha256": "ac063d26ecb1529162bc55143d58cad9a51896c5c4674246295a0458319fd04a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/modules/transformer.py",
+      "sha256": "54835931be31931e081c06c97610aad972c3bda14132ea7b4460b5e832d2ece6"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/sam/predict.py",
+      "sha256": "85a7218dd709d7be6ffe83943e6bbf8c6fd549edb009ba4ba62e2aca6509577e"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/utils/__init__.py",
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/utils/loss.py",
+      "sha256": "3e694a0dee3141389890f48274d51a6f1242edb878df31b188a548c6c5c15461"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/utils/ops.py",
+      "sha256": "b00783fe4a32b570f31e26c8bd02cb031def3a919d85d0224213223455279f95"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/__init__.py",
+      "sha256": "7b5719afda5b49b7f761ad8ebe44e3191c03fc4d986697bad74c6c90133c8049"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/classify/__init__.py",
+      "sha256": "b7ee295079a023682385cfa5ddba8d11c12d283d5d3b8d270f855ce98db10faa"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/classify/predict.py",
+      "sha256": "2fcf40530522f86ec28f63c3b11aaa270afdd695e816e7bff295dd23b2897586"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/classify/train.py",
+      "sha256": "74d01444e9eb4b92c06eee842b0dbd9fa11412829841a36300ba21de6a35326d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/classify/val.py",
+      "sha256": "31776d5ab0585697c5b8f7c53ce4cb29aff005d4c8038741660b93f84b65759e"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/detect/__init__.py",
+      "sha256": "251f206495a7ef03016e1fb48ffd3bde7c495594cc1595564ce1b95a7be4eb0d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/detect/predict.py",
+      "sha256": "1dc6e159412a17dedbf088c8b7fb1c6a71ef4b2eafcf2460c9b168d3ca351289"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/detect/train.py",
+      "sha256": "f1496ad523cd2eb90ea978f462de73351d5cfd797f4273a396509da811d431db"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/detect/val.py",
+      "sha256": "4a64b21c7e0ddd82bd52a33b351070742e58a57fe2eb8cec7d4f4ce56742d580"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/model.py",
+      "sha256": "c0eac9e87594f4a846ee955c80ae07748f317b61924a17bc578bf86c90d5c9d3"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/obb/__init__.py",
+      "sha256": "b7159b3c62d8d7f33b67094b423af01a34c13a5b2ff4fdf2939644832b138a75"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/obb/predict.py",
+      "sha256": "a6b7c3ce1c2e547285e824709c554103e605239abb53b344430213187981d8ec"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/obb/train.py",
+      "sha256": "b56a45b5c6ac3305aad40ffd55d6c4839a48547c2e5b099e2ceca3f92e3fd6c6"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/obb/val.py",
+      "sha256": "7df971729740018241cdaa354e511b358d2b5a5fbd8ab98221dad77006ef9106"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/pose/__init__.py",
+      "sha256": "386bf13772ea268b7687c197d5cb09d4a12bb079c32ac9b7dc27ba64153d2ebe"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/pose/predict.py",
+      "sha256": "8d05ef72a763827386d6c470ecbfa6559e87715904da982790f328ef105846d8"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/pose/train.py",
+      "sha256": "922f1b913f167c81634ca7f5a1f7910ea788aa693a03c6bb005a20ee733ea2d3"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/pose/val.py",
+      "sha256": "4273eb4a79471cded456867ab60b518ee263c0e658f25f8c118c6e40f62f27ee"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/segment/__init__.py",
+      "sha256": "9926ca384f019c72fb3cbda708e546edd44cec223a8497b314f3f06458c49b2f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/segment/predict.py",
+      "sha256": "113057399e1dc3c8bbe123d192dd7190aae925be6697f85a7008c33521392c06"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/segment/train.py",
+      "sha256": "68e4290c8a6d65f29297d9856ba07edd6dd071c311966048341908f4af3edec4"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/segment/val.py",
+      "sha256": "90f9e501de5a03a907b083e9e540ac193cbe6a2e64c8ac764208151821ff1fa5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/world/__init__.py",
+      "sha256": "dd54c7d2ae0d3add84591a26d79c82ca6be6be6d04b69d9b9844c9521b154c12"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/world/train.py",
+      "sha256": "69c60ddbea272faf4bacbe1abfafe1636af9018d2eac2d165620ecb67ee7a5f2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/models/yolo/world/train_world.py",
+      "sha256": "22c9c2115b7a0dc33d954b2408a98837e33c30cefdc4ba704d1a91a001d49d9e"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/.ipynb_checkpoints/tasks-checkpoint.py",
+      "sha256": "8a6e29ef0191dfcf56a2f97e79177c6f95dd43d02c1669dc2d3017143a355222"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/__init__.py",
+      "sha256": "e013cb1d8f3dc4433f6a5e6e2b468e98582230be823061196decf13af4e3384b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/autobackend.py",
+      "sha256": "dc17658f1fb419418b072ef49d4c78a03812aab5ea68e15862d83d34a80f7e02"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/MFF-checkpoint.py",
+      "sha256": "50b5a7a2b70c5b8b2113aef5788c353f5fac82465e2e0eed71fe0f02333e01b9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/SKS-checkpoint.py",
+      "sha256": "92f1c7e47a6bb0f6a1afba5faa789619e8ce3f6e767e2de2fa3c153242508c83"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/__init__-checkpoint.py",
+      "sha256": "60fe38befce6c2d66e25ba639e43372552cf4591b36b26c8b053acaa98ced791"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/activation-checkpoint.py",
+      "sha256": "452d034439bdaf9eada2337bf57f14055b6292d75ef566acc3b1886e2a2948c9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/attention-checkpoint.py",
+      "sha256": "88a080234e94089514e1efcb0174428eaeeaa8910e88ba9fcbf1062159cc5818"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/block-checkpoint.py",
+      "sha256": "8cb5d07ab9789d77ebe0c106329f52dd881d4ea389cdab35181c6bcb25f22d5d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/conv-checkpoint.py",
+      "sha256": "76fb25b7ff1cb18f03c63710e8d3954c5e37c2676b6b7ce48b7c5dbe60f3c905"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/.ipynb_checkpoints/head-checkpoint.py",
+      "sha256": "be5a77acc6b9e248e2b8fa8fdf6fd176039bf4aac722d889c748a1d5217341e7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/DRF.py",
+      "sha256": "0d4fbdeed2615d89992a82a4405fda1ef119e9197d2bb137133e259b0dae1498"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/MFF.py",
+      "sha256": "50b5a7a2b70c5b8b2113aef5788c353f5fac82465e2e0eed71fe0f02333e01b9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/__init__.py",
+      "sha256": "60fe38befce6c2d66e25ba639e43372552cf4591b36b26c8b053acaa98ced791"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/activation.py",
+      "sha256": "452d034439bdaf9eada2337bf57f14055b6292d75ef566acc3b1886e2a2948c9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/attention.py",
+      "sha256": "88a080234e94089514e1efcb0174428eaeeaa8910e88ba9fcbf1062159cc5818"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/block.py",
+      "sha256": "8cb5d07ab9789d77ebe0c106329f52dd881d4ea389cdab35181c6bcb25f22d5d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/conv.py",
+      "sha256": "76fb25b7ff1cb18f03c63710e8d3954c5e37c2676b6b7ce48b7c5dbe60f3c905"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/head.py",
+      "sha256": "be5a77acc6b9e248e2b8fa8fdf6fd176039bf4aac722d889c748a1d5217341e7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/transformer.py",
+      "sha256": "0310fdb944690a5f84aaf5dedc3886e895bea41cc1d7a1be01a84b759ef26b2a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/modules/utils.py",
+      "sha256": "efbf509e72a9f6ff23bf6e7511276e4d7274a25f0790838b6c6416c041908e15"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/nn/tasks.py",
+      "sha256": "72a4b8cfcd6dc8e2e61a4c6a1e2036769c46b6735bb6191ea386116d64120201"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/__init__.py",
+      "sha256": "3bf1bd8e1df836716c1ca480f337091f4087b60d50d35244891586c17def1896"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/ai_gym.py",
+      "sha256": "290771d113fdb7dcb532a60c5656144a7d3d4952525302af8313eb8bf0e17333"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/analytics.py",
+      "sha256": "508f07a1e81f2091a0bd03ceb78f9ef40d2cb36fe87ccef3cf171b2a585eeba9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/distance_calculation.py",
+      "sha256": "7661f129f0ba08dc204b9a2d379005d0b93281d64c19b9fd519d3a66bb3e8659"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/heatmap.py",
+      "sha256": "94fbc2f5711b46874e7d9494745e4194654c013f535698c8ca9dc477fd6cb1bd"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/object_counter.py",
+      "sha256": "0bcd044fffad20abfba5fb213bc0c5c2298289e04757836ced6aee698d127204"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/parking_management.py",
+      "sha256": "fdc27891722ae25e7a595c8db2ae915157bf9afe68072f9f9add6f2327af3e4a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/queue_management.py",
+      "sha256": "0b116f1f0487abc399e5a5bbc76175d23723906010dcb489e73ebdceeb1155bb"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/speed_estimation.py",
+      "sha256": "923a8c4871931cc65a3604ca34a5942f19c940db2f86ae16314a613159418ec7"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/solutions/streamlit_inference.py",
+      "sha256": "30a7f93f73b9a09c082aeda1fd446fcda423316a1210c0cc070a2b76995f471a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/__init__.py",
+      "sha256": "8fbd88807d9d647400acc3cae18c1c57989e230f787d8be519d42307d70e40ac"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/basetrack.py",
+      "sha256": "faf0430fe43d96cc5f4cc2b6c3d92ea961ab61b44c99a0420846c61b2479de01"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/bot_sort.py",
+      "sha256": "dfd02f85855b4fb8b3177fbead7fdee8b8606f97334c0db7830e8082735c45db"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/byte_tracker.py",
+      "sha256": "5f720097dbfa1b20afe6f2cf06f5b2529ce92c793b4aaf423e960a3ec5658363"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/track.py",
+      "sha256": "367080f7d8d754ebe3ed7a4bfd1bcc9b4d4319d8b12aa00c173e9275db37d244"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/utils/__init__.py",
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/utils/gmc.py",
+      "sha256": "fb5a01345441fbd11ac09994393e7ae80ca02c2571270fa3b0f4883a5e63fc79"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/utils/kalman_filter.py",
+      "sha256": "d28aa1939f4d2848b0709d855e7c3afec4f86c8142e96bb9218d81f931b124a5"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/trackers/utils/matching.py",
+      "sha256": "53185219ae6937a5a8630612040924b7e3bbc4cc54478ed5b9407a3df54d91be"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/.ipynb_checkpoints/torch_utils-checkpoint.py",
+      "sha256": "e9c1f915cb7c34a3860ec52caa5e8e5c7475d538a62e9d2fb9e944be4ae99657"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/__init__.py",
+      "sha256": "c114af6801b3fa04318f0c7650f7e4395e363633b6d0d318d77d490c925a1cf0"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/autobatch.py",
+      "sha256": "3ce25bf5ff1d8a823b94f1a709cedb771b749dc7ed5d96b46ef3a48a9f97a169"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/benchmarks.py",
+      "sha256": "ead74d7012c04e5956a6600c502e935bb0e20b1d5528786740de2f928a8ddec1"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/__init__.py",
+      "sha256": "62b5aa0b705555a4cba1be2208f47a237ea65312143a93c95bb07f2e34fbf10c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/base.py",
+      "sha256": "03c1fa8d79cf4097cec40d41c9305617678f0ece6575c71469b5c6d2ee417d12"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/clearml.py",
+      "sha256": "33d162d4e7dd5aa726f2e5646aeb97df3248621361e93a7b268e027c0d2ed27c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/comet.py",
+      "sha256": "411dfef5fd0bfd6ee76565a0fce10deedf0b6b6268b5aa524be0a735856309d9"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/dvc.py",
+      "sha256": "5880a532cbaf8628b2af046fe41b192f18ecc58349dd8f15abbccdd01b61b6ba"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/hub.py",
+      "sha256": "10f7b0b0b8a015073db9c4d7d9ec4a4a528189a04d858632182fe7476ada809a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/mlflow.py",
+      "sha256": "fdb5331f23dbd27a677b4585946ce5182cbe5f9b31190842ff10377596c5d3c2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/neptune.py",
+      "sha256": "e59dee6b96014d44b9e851fc5502901b569a228f5f1fc184cb30b9abba788a94"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/raytune.py",
+      "sha256": "383558cf2f82a0ce1481ed338e48771e787d9c5d8cd2f843ad27a75e7bdc8b3c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/tensorboard.py",
+      "sha256": "40480e56152a63d6a43ace53248c33d51be7ea5df6c562e93b1970132585d01f"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/callbacks/wb.py",
+      "sha256": "f7e7e340874b8ebddbef70d3137ac73b5ef52af6c7d55c1e27e6e66effaba93c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/checks.py",
+      "sha256": "8419213a29d647386903949b635bfec0231d15e39e98e4519662815e0c281d8a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/dist.py",
+      "sha256": "3431606beb8ac64057db32f114749e9defdc0a2190268c8e7825dc37d2483889"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/downloads.py",
+      "sha256": "341f540dab397fc473c6dfcf4b5bc32a44a00b1709d11ffea6337267c1373943"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/errors.py",
+      "sha256": "1aa3ff2608ff9f4a5ac67f0e3219f70d30a0a0d901d968d47146aab3e33a4909"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/files.py",
+      "sha256": "4d57d8d168b922c51ce1876c0f30b474083e8c03f97b162fc2a0775665e10cb6"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/instance.py",
+      "sha256": "e5d68ce6793106ff61af9433c8823cce6b858f6e211ee36d72be043021c0b696"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/loss.py",
+      "sha256": "9831c6985fa08e0800515848d5d9029bb4ed7d91c2c33db95ca9b8336c4928bb"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/metrics.py",
+      "sha256": "5173210674ed31ca5300dc6642a7189159e3f0d780b77f6065ecf483a8dbad6d"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/ops.py",
+      "sha256": "09078c0d55787fd416bd83cdbcd26eec62405b6f971bddc3ede7bbc85634bec2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/patches.py",
+      "sha256": "3a8dc390fecc6d79cd1af3dfa054a8700915bda3e1f64c0c4fff514147e35612"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/plotting.py",
+      "sha256": "e4745f886d9d925599261793c464f2d20151937f6eb477196cc265ee3da19cc2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/tal.py",
+      "sha256": "8626b7f4c8563c5a4358e4c05c2ff9bf3fbd71476244766cf947139f10f80e5a"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/torch_utils.py",
+      "sha256": "e9c1f915cb7c34a3860ec52caa5e8e5c7475d538a62e9d2fb9e944be4ae99657"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/triton.py",
+      "sha256": "820d5f8a7c67a3fb58d867bd3cc866bbb3c8f70be8159a2289c753e0186abf7c"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/utils/tuner.py",
+      "sha256": "e3d28069d299b14782a70226e529f482b6f444f70c348f2f1c62f0ae80c424d2"
+    },
+    {
+      "path": "code/DM-YOLO/ultralytics/yaml/v8-n-DRF-MFF.yaml",
+      "sha256": "236626545f6d1e4942e3beb425d13da95772a6206841ca693951666fc7284b54"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/alignment_guided_layers_v2.py",
+      "sha256": "a1d3ad3d2feb7a8d0218ac783dfd867d4b9f10cfb07ce31fde1733d752ed9d22"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/alignment_pilot_layers_v1.py",
+      "sha256": "d17b1944d31ff88e6886a10ed572996e0dc3fe4c322ea4b3b7510dfa63e96f70"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/alignment_reference_dysample_v1.py",
+      "sha256": "c3f8dff42b81ce292c44165b99275d2803af77da6aff2046ee8a1dbcb753f233"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/check_mff_spatial_cpu.py",
+      "sha256": "b4a9ec5c13de979380972d11b853eecdf468a001e95d088200f06e9fc0cf23e9"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/collect_neu_formal_diagnostics.py",
+      "sha256": "071b618d123336d5fe4070606cb0348913e68b0466061193017a027173c2a193"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/compare_neu_b_teacher_v1.py",
+      "sha256": "9880eae0692408e12597ecec8bd9aa7e7f433dbfe8febea8de6aed75fb86bf80"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/dm_batch_data_v1.py",
+      "sha256": "d2e1a28bb7ecad347a88b8dae6610a917156550666ee67254b4cbab1801136e3"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/dm_batch_utils_v1.py",
+      "sha256": "ab35b334cb89ded697b2c8d8e025c16eafba5467907b954d35f0ee45aba840cd"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/dm_batch_worker_v1.py",
+      "sha256": "f5e019f137aa342488694d0bd669735d0c5f310372616013f99fb550e2a5ea5c"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/evaluate_neu_repeat_gpu1.py",
+      "sha256": "ddab576158e6ec5d0e2202cf51c634ff1c960387fd7b54635e8ef840a51efe39"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/evaluate_neu_test_gpu1.py",
+      "sha256": "a2aaa21f0e7b408823a7855faed75f5d6b5be4d973b7d1b2536227276da7525f"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/gc10_short_kernel_v1.py",
+      "sha256": "dd4d5caa95cce45ef6b9dcf3205cfafdb8fce3d11ca22a0523ef255e8b5fe7aa"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/gc10_short_pilot_checks_v1.py",
+      "sha256": "ca8ffcca71b461548f6bb65204c202ff531c95c6222d0be2c529b2e8f7b4f1da"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/gc10_short_pilot_common_v1.py",
+      "sha256": "c9e059823479fab8049cf11d2ca370832987a1c0f8932fc9e3ff0da7eb188e0d"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/gc10_short_pilot_worker_v1.py",
+      "sha256": "f63c1cc4dc226c821411d557e5e169ad2cacfe4d28d7c62266fc2a44472dedad"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/mff_spatial_pilot_layer.py",
+      "sha256": "64d7f857d097ff3ff991ae1125d6559e0c4efe59979cc9487175bd97b9f4b836"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_checks_v1.py",
+      "sha256": "6e4735fe92e074b9c7d52b4507e737cfe13aeada4ee81f09a7befec18ffb8aa0"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_checks_v2.py",
+      "sha256": "6d31bf1404512d1d159ae0ec33d182b630998e993f5820389f5e661624474f78"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_common_v1.py",
+      "sha256": "28a98ce54a993fc739a6e8e58780bdfe80f0fd32ac2cf031d918a72d883ffe57"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_common_v2.py",
+      "sha256": "f095acb17cbca7461b34f917776261885490695ea724e06fbbb5ed1cd9bc2f8a"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_layers_v1.py",
+      "sha256": "83c660754e6711c81d4863ae35ef055d00c2552b272c03b762dd5739e63f4a96"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_layers_v2.py",
+      "sha256": "7e1e12ab2bb292353de4b9f5e7ca3b3e374f1138d8dc7d5e2f3f295d8df4f0e3"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_worker_v1.py",
+      "sha256": "a9e9b5c7b39ff9aa7139784bad16ed0acd28623dab2603479c4e7ef73f66cbea"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_explore_worker_v2.py",
+      "sha256": "2aee94f4b5f5cd6bf89596ef8aa5ac7eadeaf91b98ba7b8e193ceea2d5e9a526"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_next_checks_v1.py",
+      "sha256": "502b8e28073065fce4e0857f2e36b791014493924006e1f9ef6c754864992273"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_next_common_v1.py",
+      "sha256": "1d91bb70911d72fdd12782f21b1f65dcfcc93681f14defdbfefd3688b7a14a52"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_next_layers_v1.py",
+      "sha256": "50ff8e4d0dbb47a273f0dffc637e14c07e4f15705c09d055b5526d139480277b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_next_worker_v1.py",
+      "sha256": "a18c01065d02cba5bd0c8bdfb7b4fc53dad94e8880f0cd528df2294c37b82cbd"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_checks_v1.py",
+      "sha256": "23c032219c11d338fd2b2d4f210d5462577ee1eddadafcdee15963ab9453b7c9"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_checks_v2.py",
+      "sha256": "a644f688dcdbddfbe0a6cbcc100ecdb08f164df841c68b0b425902744a98c035"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_common_v1.py",
+      "sha256": "3c1a5ab37b542df8b90724db5a78be832660be3b561d00ab7b51c88e14064cd6"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_common_v2.py",
+      "sha256": "ff2bff28d95f61970c45491192b1f2ebbc68ec6ef06d46732fb87c82aa9812b2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_layers_v1.py",
+      "sha256": "f5bc0592dc2488bfa14174d238bcf5ac1d16ce7701823e014f8c1a006417bc59"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_layers_v2.py",
+      "sha256": "4150909a6c8996f051bcdf4db759fbcd824bada58bded7e307646a8da3f28d42"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_worker_v1.py",
+      "sha256": "b23c318bb3ce6924606c5ec25f0fc8720c2f67b85ad2bd89430d75cf79555724"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_r1_worker_v2.py",
+      "sha256": "b3a4ecd1464f8c0455c6891fa732560fd8cf9ccfd5dc6c3dce35bba3fc715bc7"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_region_diagnostics_v1.py",
+      "sha256": "a2da808e5f80d778bef93d7ec0588f43826c259c919917a8d5c26dc422ab9694"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_region_formal_common_v1.py",
+      "sha256": "fe68525aa96846163e14f7d7e76b992b89712b4fc8acab1a2ec7ae8e5ffc35a7"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_region_formal_worker_v1.py",
+      "sha256": "c6e1d0fe66af34e7144c86d866635709b7f67d1c8c2ebf29acdfc3311fb8c556"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_repeat_common.py",
+      "sha256": "de741a52b395f1f671319731ed3f8284387526a130dc8d398034fc46219f6cb0"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_source_formal_checks_v1.py",
+      "sha256": "83a402b110af4aa0f7665bccb7a15d4840c7d30c1df7d9f9e97c33877ec42fc4"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_source_formal_common_v1.py",
+      "sha256": "dc5ede68cb9db5c46d3c0d4c228657e8ca0281810f42afda85ca4f9c5f85e6e1"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_source_formal_layers_v1.py",
+      "sha256": "36428101e6e2a0d61ff9651960890da0f8f9511b965bd194e9614b90a4d07e1e"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/neu_source_formal_worker_v1.py",
+      "sha256": "16d24ccc364ca7e6fe5eb51bb21ebbad77ed48250cd911116d9139b56f15046b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/probe_mff_trained_v1.py",
+      "sha256": "970aa218b6401d241009bbbba9e78d001298d5d3b9bdbdfa4afe6d17e099d7f3"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/repair_alignment_guided_v2.py",
+      "sha256": "17b4876f41006bfca04c212fa2f302770d04eb0b544084da199e6eb720964fa3"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_checks_v1.py",
+      "sha256": "922533d392febdcdd5ab0ed3c756ace916d625fbee300ac9609b0439cf39ff1c"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_checks_v2.py",
+      "sha256": "a70dcd39901253cc6469a2a26a99ff551b046c0a55dd2efcf07dc0125cd95c6e"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_checks_v3.py",
+      "sha256": "ea45c57dae64db510709983b1f4ac2042b04e3d3e022c06878f3e17261bb6f26"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_checks_v4.py",
+      "sha256": "b081164846b8c1c9099403f4a858f4ebb092395770bcdb89ab59a897f50a864a"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_common_v1.py",
+      "sha256": "b388bae152a7190a524dd1896ccae3f225746c79337d3bc31ef83e5390a583e2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_common_v2.py",
+      "sha256": "27b8b6cf0d5213f29046eb43536efd7ded4421d10bebad2e03bd8c99a93f9a41"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_common_v3.py",
+      "sha256": "a1efd410cb2a1e4c94144987883d9910480a5c752aa644a1df537dade8ddb29f"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_common_v4.py",
+      "sha256": "fa869a582acf9b5753c0a4cf0901f43fc0f6d6caf3f9d6263595bb90d86520b2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_frequency_v1.py",
+      "sha256": "999711130873ca8c63c8bf682cd455087e63b142bfc5d50f5a927cd960a2fed9"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_views_v1.py",
+      "sha256": "a44cdc83c1a0c7611cc734c827b4bf982f1cb93feb68d2b2849d1b70fe01ae0b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round2_views_v2.py",
+      "sha256": "ee327120bcc6139564ca1371e7c153b58eb5e056f806fc2587c5f3342bd8931c"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_checks_v1.py",
+      "sha256": "5fba0fedfd068e02db90b59da192178439746b9e3f1aba3cdf8e79783158ab72"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_common_v1.py",
+      "sha256": "f050a8f2357f009bf73d94ba2cbb8b5cff673160263ff72b34213a2373a5d2a0"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_diagnostics_v1.py",
+      "sha256": "0bcf9163317751f34c36d70cbf935d4897635ed83e42af9cd59f53b7d8935f2a"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_rng_checks_v2.py",
+      "sha256": "3a9fa8ed40dcb522ca3e7a2f6d218dbd7b793b9aae8f54f6748cadc2e6cd3c24"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_rng_common_v2.py",
+      "sha256": "b25b44172c2f26b331c3f85ec467a48f5ca5d7f368ebb5a5a3c44d9ce6ec8d40"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_rng_worker_v2.py",
+      "sha256": "e095ff43b7e2ebcbf275f7dc97ac0b39d2bbd33cdd8f8e136304ee749ae31dd1"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_shape_rng_v2.py",
+      "sha256": "6a560517ef9050b2c3251ba7b35a6672a92475a95642ff7cff4bad65c7e33636"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_shape_v1.py",
+      "sha256": "1f355d0b0be068761f66b20b09690d160474aa287ff82f5ca2b3835c22bbf305"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/round3_worker_v1.py",
+      "sha256": "5c49d41b4551c578beb9521a944e0dbff2409b6d394d2946173be40572c84b64"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_alignment_pilot_v1.py",
+      "sha256": "60c4fe1e13d065d1cc73ea0c38aa4807ee4a4ecc6c115c7c633fbac50842460f"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_calibration_sensitivity_v1.py",
+      "sha256": "4663e30d169058bf13a2c040ea6d1f28a1c9df00bb859d989438b8d9ecf065b2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_calibration_sensitivity_v2.py",
+      "sha256": "82bb731882131a70648497e44c033102d6db163a83555958d3d531751daf2a59"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_froc_seed0_v1.py",
+      "sha256": "c99907f484d01e3b385ef6f6c37af8b6e65edcf85f7c402468b0c40125ee72a0"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_mean_overnight_v1.py",
+      "sha256": "0408ef62b4348cdccbe15fdb3530338e438620b3fbebe56e220cb621d8d3a241"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_operating_mean_v1.py",
+      "sha256": "cd92cd19e8613df67ec3a5c2c979156d88106dc1252ed9aeb7f7b67d23b6b248"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_paper_measured_v1.py",
+      "sha256": "1d56cb643e4f48180c318b6ca15ea5db3e4c273e9cfb59af35608d10d1164cc6"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_paper_supplement_v1.py",
+      "sha256": "1ac7969c24dbbadbd59677a76efd491fb1a8012ae04c4ee1034f2ead48a738e9"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_scale_scan_v1.py",
+      "sha256": "492e5a43a78a3232f51b35a297894c0337adc3ff3b0d9562ef1780593362bd63"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_scale_seed0_v1.py",
+      "sha256": "655ec1724902ffc05d976a45eabc72b026bbd011eab8fc082bf9783f507f37ad"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_scale_trajectory_v1.py",
+      "sha256": "85f837fad6de1761f9e58922f424962ea8eb60389aeb0a5a4532353aacadb95e"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_blur_three_seeds_v1.py",
+      "sha256": "762c4a3b25d0128bc92814052445a67d7355a0bbb3c065abdfcf26f02a143a74"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_dm_reproduction_batch_v1.py",
+      "sha256": "7eebb49cdf0e32cdb4c85e96454a9014e3ac5045d969eb8a95946ff60f4251a2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_gc10_dm_motion_pair_v1.py",
+      "sha256": "4deb6a78e3a2afbdae90cfd02e79bdaceb69ed7067bccf7fa7f5716b53e4dfd9"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_gc10_short_pilot_gpu1_v1.py",
+      "sha256": "3cba81d8e7613e837994a4043b9b57d4d9efa9c9e20b373030eecf2f825f0423"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_gc10_yolov8n_motion_transfer_v1.py",
+      "sha256": "ad1bb65096c2b6355137c9fdb773beb3fcf472e1b5d471c541b9c3f3179f035b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_innovation_round3_gpu1_v1.py",
+      "sha256": "a8184ec3969dca17f770170982beb7d34daf670e33cc658b853b199a07548ace"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_mff_spatial_pilot.py",
+      "sha256": "123780d4240738feff4f93376f119c204e529174b345a0d2fee314d6551af578"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_alarm_diagnostics_v1.py",
+      "sha256": "197fd6a7aebab4e2a506cb970328c92c67758a3dc3ed75ed45023e4f459f875e"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_b_bg_train_v1.py",
+      "sha256": "9783191eae5f872caffae7cbafaa1895316103b6e598c5ae1e246a3e479d42dd"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_b_fork_v1.py",
+      "sha256": "24220e3155840da7bc2037392cf48a8f64d2b519719fe55e4528abe0fb63314f"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_b_probe_v1.py",
+      "sha256": "4a137e132b5fdb8f096af78c3596f9a0fcab6d38775635ff390a10048bd07315"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_batch_probe_gpu1.py",
+      "sha256": "e98d48b5c440f0e30d91ce6e5ae05b9ecf846f3d5349f0cfbccb3a6ba96425a2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_blend_control_v1.py",
+      "sha256": "183fe276305e6b53f9670d8499c4e4079c26ef7af3ad7a5cfd3691038b8827e6"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_blend_v1.py",
+      "sha256": "035cfc9a50936e76c0d13721581d330875dac881e35a193607106b51ca3381ab"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_clean_anchor_v1.py",
+      "sha256": "26a8c6b4c31bdea03b6b23edfc552d563b1d994839dca44b7b225a9b0b2f2928"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_direction_v1.py",
+      "sha256": "1547b7107eab0530a99f5b4eb3a51cd6d5c39512c3582d52be6d37a1e81b5f4f"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_dual_v1.py",
+      "sha256": "2a247dc340abd46a131227ac6f835a753906830918614cb80f27afb46125ed8a"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_final_test_v1.py",
+      "sha256": "0703890c4ba2eac1d0e102d94e441e8464e759473bb982c7133dc642897ee090"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_heldout_v1.py",
+      "sha256": "ee535e81ba9a3617558cc4d962182c653be28d77d94e9145c796f80d5a3895a1"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_localization_v1.py",
+      "sha256": "4b935737d5d8cfb2d40156703bd27d2c88e630447b0e437f5cb4de59fd865f5f"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_next_v1.py",
+      "sha256": "b850237ded4f57dd2352afe7a9d31ae445f8831ad485b1ec3934258a7c3d3b5a"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_pilot_v1.py",
+      "sha256": "b8b40c17c9e89ae19df5564fa8e8806a96ca5ea37694af3de88b6c9c15e959a0"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_blur_test_v1.py",
+      "sha256": "f3bfa2fa837b46778e2d9b54c38dc27bbc7f355022b52f008932e9e44f9cee1a"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_dinov2_simple_v1.py",
+      "sha256": "21ec8ac21de34f75c0c2ae439304600b4473dac75e9c8b5aa532944d7eb1321b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_dm_b_factorial_v1.py",
+      "sha256": "8e63b7ab5aafb3d556dbe18d6f2d5910f666122581ead22f13e056303a06e72b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_explore_v1.py",
+      "sha256": "d3397e123f6ff8e17d8ade00404e30b225318c601738b9e4d9ff6abf9bbd03d8"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_explore_v2.py",
+      "sha256": "5a81fee8699cd9a2f7961d6b9aca08b9b5539468332d0db7c0190eecc7fccd16"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_formal_gpu1.py",
+      "sha256": "2ff0cfa8701f8ff7391b63b0957ddb006c0ff18be39cf794eacf6cb34d84eaf2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_matched_strength_v1.py",
+      "sha256": "ff3ec752eaf6d31d6607e01cebe8188fcc2f6fcee73cff5ab005709b01a4634b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_motion_control_v1.py",
+      "sha256": "56b64ae70c24a97d6c692205a049e3673749b89f844dff98a172a446680c5059"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_next_v1.py",
+      "sha256": "1be03e494611c4ccf0a1c669f685d2d7c284136a98fb149eb3916c978bbecfe2"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_paper_night_v1.py",
+      "sha256": "c493ff7e96bd4858168bc938c7af1e09e1378acbecf5e6ca5da1f88fe5e67c38"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_paper_seed2_v1.py",
+      "sha256": "9960e79a5957f50ed8020fbbf7e3e8367e2ff2c5f15554d181c3c5e249d63698"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_r1_gpu0_b_pilot_v1.py",
+      "sha256": "257017f48499ee8b5ae91a91c2633f7241df1842b6b4f443d269332c7c0e6d7c"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_r1_gpu0_b_pilot_v2.py",
+      "sha256": "68744924413e5f7712f8982032c57d21e6c8bc68a175603cacfd77f387d8615e"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_r1_gpu1_drf_a_v1.py",
+      "sha256": "2a714935e6dc95ae226d2fbb98a8451932448ef99b4baf9425ad8cf28bdc3480"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_region_diagnostics_v1.py",
+      "sha256": "e2cb886b486b518fd044c71c3399a9e450530c1f8589e2b7c15b68d4877105f9"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_region_formal_v1.py",
+      "sha256": "7d24c337cb380844b321ff0a0c1473302573e4ca1e87dd45c090f45dcd02b063"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_repeats_gpu1.py",
+      "sha256": "68bc1e59881a8f234998026ae624a1c91dca81bdec4f044fc72d2ef9ef024482"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_rtdetrv2s_pair_v1.py",
+      "sha256": "f184d40d7a4a9737b74aa0ab988197f12250b1c82d4db07fa1864f675c6102af"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_shape_source_formal_gpu1_v1.py",
+      "sha256": "4c303db1b2ce24d8ae763c637a4abd3bbb6d0cc93e93f105f3ff75270c231233"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_source_formal_gpu0_v1.py",
+      "sha256": "51e783419356ccc0e21fcf279ee25431298948e0f60bb91eab3164a3c9036966"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_strong_mix_test_v1.py",
+      "sha256": "8a54469fbf26e3d1e2a6538a1c4385838235ba6b89b42a33d361995b086aca3a"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_strong_mix_v1.py",
+      "sha256": "9b7a5347ac69e0457de0f02809253f47e3c2c085c76a777da1075437597ac91b"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_val_miss_diagnostics_v1.py",
+      "sha256": "2a36daa511bc8e1f83bc97f35cdf2543c76b8832150283858b0c1041d15144ca"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_yolov8n_b_transfer_v1.py",
+      "sha256": "14c8326d8b7b4100cd082ce5d3cde79962e0f5b1cfd41c307f59b3264d24146e"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_yolov8n_motion_pair_v1.py",
+      "sha256": "0660791798f18b4201548335dae24bd7891214979aa429be6f2f803fcd4ed547"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_yolov8n_motion_repeats_v1.py",
+      "sha256": "ea4945d09d78c31035e3efbd77345d16c8a37b6d87288d5a3d1683383126bac8"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_neu_yolov8n_seed1_v1.py",
+      "sha256": "81c6baf09798a7fe1683109b1c30edc1c1f76c2be7a1199b330ee3e68840a118"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_reproduction_round3_gpu0_v1.py",
+      "sha256": "d6bcca6834de0bbf8fc96bbb1a8dda657899d63a3c7e60c9b8a24959b415d20d"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_round2_pilots_v1.py",
+      "sha256": "e7514398836cb72beb74bdd91a244f0a70edb703eea3765a6ab472d2ab9c3eee"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_round2_pilots_v2.py",
+      "sha256": "004a99b9e18911ff1a3546430b82f2fbf9a00f4c59f851ad6ba03dd06371c58d"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_round2_pilots_v3.py",
+      "sha256": "1eb17325d105380693090687d9d7e9d90c2ae9ed7586884bb61106abce761bcf"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_round2_pilots_v4.py",
+      "sha256": "a31bd1ffc46617681315bf9ad86f192b0d42b28fc8b86f584c17fb31d2e04b67"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_round3_rng_review_gpu1_v2.py",
+      "sha256": "eadd56e617e2d3b58ff01cbe2418e84cc8b20ed2d9cbadcc41366bc4c19d687f"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_shape_crossdata_gpu1_v1.py",
+      "sha256": "6b1ac37c4c1b92305898807600788dfd0394a21a587c30257a7e35fff64f82a6"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_shape_formal_gpu1_v1.py",
+      "sha256": "6190fcb94db962e49785eb0e08d6cf95fcc594da7ea70807233d983fe268b732"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_shape_repeats_gpu1_v1.py",
+      "sha256": "b8c018b69174fda63a4cbafd2808a97e62591a1014d256bf92a249dfc9fadc18"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_shape_stage1_light_gpu1_v1.py",
+      "sha256": "75dd6ea04ccb962c147753720faa6797bd84b538e74b3c9ce72ac6ee64744cdc"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/run_yolov8n_smoke_gpu1.py",
+      "sha256": "853130ce85632b0e3e326e2437093e8542bb51d85bde4fd1563f32ee8183c4ef"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_crossdata_checks_v1.py",
+      "sha256": "eb3f3916767044995012f7e5fe762816952a850240025fea9a66c6444a64c5c1"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_crossdata_common_v1.py",
+      "sha256": "f9b099388ed909be06b0695e13cb5153a2b021f51cf1d277d39b66e1b8851fd6"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_crossdata_worker_v1.py",
+      "sha256": "63de2b054735faaa6f96284fa2a0451699a300f1f514117d415c20e170ad9787"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_formal_common_v1.py",
+      "sha256": "8b1f8cc30d48b5663076f143409d2bb658b01464204701dd5d5e33b5d7e0ebea"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_formal_worker_v1.py",
+      "sha256": "9ec1cf69acec732f56fe49e01675ea3120868f5026936caf29883b7f1b87878c"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_repeats_benchmark_v1.py",
+      "sha256": "60f92645fca8fb5c28d8c50042500e3dbf05887f01c4ab89d3b561dc24173aee"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_repeats_common_v1.py",
+      "sha256": "f9e2b558274923f333e95b3e3d6444e5630c1d9623d3554ce03c34cad0a50b8c"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/shape_repeats_worker_v1.py",
+      "sha256": "6bf7d654e59f0f81030a10e72edcd8cbe17e7014fc24cdbf0a9783d3a1a80485"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/train_neu_repeat_gpu1.py",
+      "sha256": "875d4985df4e603bf7d7c87bbac26f231f2be9b1ff4a7bb2c6a643fa273077cc"
+    },
+    {
+      "path": "scripts/_blocksys113_lib/verify_neu_best_gpu1.py",
+      "sha256": "70fa223016e02e8d89befae39e7c4dca60c1a890e7f82af20ab1e224ea1f2413"
+    },
+    {
+      "path": "scripts/blocksys113_common.py",
+      "sha256": "344986f5082bacabaa88dbaa816014be1b3a7bbaadce11bf957cce8fa65bef8c"
+    },
+    {
+      "path": "scripts/blocksys113_legacy_worker.py",
+      "sha256": "43ebe6b63fa61c24773e3b7d4f7feb3d8b9066f9f0a0a007455853da77af4953"
+    },
+    {
+      "path": "scripts/blocksys113_yolo11_worker.py",
+      "sha256": "10dc3f6843b18fb4ab16b800066cb89035e159f972c6b6647206476eb2bd0e1d"
+    },
+    {
+      "path": "scripts/dm_batch_utils_v1.py",
+      "sha256": "ab35b334cb89ded697b2c8d8e025c16eafba5467907b954d35f0ee45aba840cd"
+    },
+    {
+      "path": "scripts/dm_batch_worker_v1.py",
+      "sha256": "f5e019f137aa342488694d0bd669735d0c5f310372616013f99fb550e2a5ea5c"
+    },
+    {
+      "path": "scripts/neu_next_checks_v1.py",
+      "sha256": "502b8e28073065fce4e0857f2e36b791014493924006e1f9ef6c754864992273"
+    },
+    {
+      "path": "scripts/neu_next_common_v1.py",
+      "sha256": "1d91bb70911d72fdd12782f21b1f65dcfcc93681f14defdbfefd3688b7a14a52"
+    },
+    {
+      "path": "scripts/neu_next_layers_v1.py",
+      "sha256": "50ff8e4d0dbb47a273f0dffc637e14c07e4f15705c09d055b5526d139480277b"
+    },
+    {
+      "path": "scripts/neu_next_worker_v1.py",
+      "sha256": "a18c01065d02cba5bd0c8bdfb7b4fc53dad94e8880f0cd528df2294c37b82cbd"
+    },
+    {
+      "path": "scripts/neu_region_diagnostics_v1.py",
+      "sha256": "a2da808e5f80d778bef93d7ec0588f43826c259c919917a8d5c26dc422ab9694"
+    },
+    {
+      "path": "scripts/neu_region_formal_common_v1.py",
+      "sha256": "fe68525aa96846163e14f7d7e76b992b89712b4fc8acab1a2ec7ae8e5ffc35a7"
+    },
+    {
+      "path": "scripts/neu_repeat_common.py",
+      "sha256": "de741a52b395f1f671319731ed3f8284387526a130dc8d398034fc46219f6cb0"
+    },
+    {
+      "path": "scripts/neu_source_formal_common_v1.py",
+      "sha256": "dc5ede68cb9db5c46d3c0d4c228657e8ca0281810f42afda85ca4f9c5f85e6e1"
+    },
+    {
+      "path": "scripts/round3_common_v1.py",
+      "sha256": "f050a8f2357f009bf73d94ba2cbb8b5cff673160263ff72b34213a2373a5d2a0"
+    },
+    {
+      "path": "scripts/round3_diagnostics_v1.py",
+      "sha256": "0bcf9163317751f34c36d70cbf935d4897635ed83e42af9cd59f53b7d8935f2a"
+    },
+    {
+      "path": "scripts/round3_rng_checks_v2.py",
+      "sha256": "3a9fa8ed40dcb522ca3e7a2f6d218dbd7b793b9aae8f54f6748cadc2e6cd3c24"
+    },
+    {
+      "path": "scripts/round3_rng_common_v2.py",
+      "sha256": "b25b44172c2f26b331c3f85ec467a48f5ca5d7f368ebb5a5a3c44d9ce6ec8d40"
+    },
+    {
+      "path": "scripts/round3_rng_worker_v2.py",
+      "sha256": "e095ff43b7e2ebcbf275f7dc97ac0b39d2bbd33cdd8f8e136304ee749ae31dd1"
+    },
+    {
+      "path": "scripts/round3_shape_rng_v2.py",
+      "sha256": "6a560517ef9050b2c3251ba7b35a6672a92475a95642ff7cff4bad65c7e33636"
+    },
+    {
+      "path": "scripts/round3_shape_v1.py",
+      "sha256": "1f355d0b0be068761f66b20b09690d160474aa287ff82f5ca2b3835c22bbf305"
+    },
+    {
+      "path": "scripts/run_blocksys113_supplement_v1.py",
+      "sha256": "f576b057d549f6edcab7c5ab11606badfa47a28775e7f15ab9ee794d742e0b89"
+    },
+    {
+      "path": "scripts/run_blocksys113_yolo11_v1.py",
+      "sha256": "dd1a358e1d1531dfaab7b7a755f937fe909ad5d23a0abea70b7f472eac68818a"
+    },
+    {
+      "path": "scripts/run_blocksys115_eval_v1.py",
+      "sha256": "9922776964b82227dccaa3941e31d4422604b010acda5075ca241d5ced6b6d2d"
+    },
+    {
+      "path": "scripts/run_blur_mean_overnight_v1.py",
+      "sha256": "0408ef62b4348cdccbe15fdb3530338e438620b3fbebe56e220cb621d8d3a241"
+    },
+    {
+      "path": "scripts/run_blur_operating_mean_v1.py",
+      "sha256": "cd92cd19e8613df67ec3a5c2c979156d88106dc1252ed9aeb7f7b67d23b6b248"
+    },
+    {
+      "path": "scripts/run_blur_paper_measured_v1.py",
+      "sha256": "1d56cb643e4f48180c318b6ca15ea5db3e4c273e9cfb59af35608d10d1164cc6"
+    },
+    {
+      "path": "scripts/run_blur_paper_supplement_v1.py",
+      "sha256": "1ac7969c24dbbadbd59677a76efd491fb1a8012ae04c4ee1034f2ead48a738e9"
+    },
+    {
+      "path": "scripts/run_blur_scale_scan_v1.py",
+      "sha256": "492e5a43a78a3232f51b35a297894c0337adc3ff3b0d9562ef1780593362bd63"
+    },
+    {
+      "path": "scripts/run_blur_three_seeds_v1.py",
+      "sha256": "762c4a3b25d0128bc92814052445a67d7355a0bbb3c065abdfcf26f02a143a74"
+    },
+    {
+      "path": "scripts/run_gc10_dm_motion_pair_v1.py",
+      "sha256": "4deb6a78e3a2afbdae90cfd02e79bdaceb69ed7067bccf7fa7f5716b53e4dfd9"
+    },
+    {
+      "path": "scripts/run_neu_alarm_diagnostics_v1.py",
+      "sha256": "197fd6a7aebab4e2a506cb970328c92c67758a3dc3ed75ed45023e4f459f875e"
+    },
+    {
+      "path": "scripts/run_neu_b_bg_train_v1.py",
+      "sha256": "9783191eae5f872caffae7cbafaa1895316103b6e598c5ae1e246a3e479d42dd"
+    },
+    {
+      "path": "scripts/run_neu_b_fork_v1.py",
+      "sha256": "24220e3155840da7bc2037392cf48a8f64d2b519719fe55e4528abe0fb63314f"
+    },
+    {
+      "path": "scripts/run_neu_b_probe_v1.py",
+      "sha256": "4a137e132b5fdb8f096af78c3596f9a0fcab6d38775635ff390a10048bd07315"
+    },
+    {
+      "path": "scripts/run_neu_blur_blend_control_v1.py",
+      "sha256": "183fe276305e6b53f9670d8499c4e4079c26ef7af3ad7a5cfd3691038b8827e6"
+    },
+    {
+      "path": "scripts/run_neu_blur_blend_v1.py",
+      "sha256": "035cfc9a50936e76c0d13721581d330875dac881e35a193607106b51ca3381ab"
+    },
+    {
+      "path": "scripts/run_neu_blur_direction_v1.py",
+      "sha256": "1547b7107eab0530a99f5b4eb3a51cd6d5c39512c3582d52be6d37a1e81b5f4f"
+    },
+    {
+      "path": "scripts/run_neu_blur_dual_v1.py",
+      "sha256": "2a247dc340abd46a131227ac6f835a753906830918614cb80f27afb46125ed8a"
+    },
+    {
+      "path": "scripts/run_neu_blur_heldout_v1.py",
+      "sha256": "ee535e81ba9a3617558cc4d962182c653be28d77d94e9145c796f80d5a3895a1"
+    },
+    {
+      "path": "scripts/run_neu_blur_pilot_v1.py",
+      "sha256": "b8b40c17c9e89ae19df5564fa8e8806a96ca5ea37694af3de88b6c9c15e959a0"
+    },
+    {
+      "path": "scripts/run_neu_blur_test_v1.py",
+      "sha256": "f3bfa2fa837b46778e2d9b54c38dc27bbc7f355022b52f008932e9e44f9cee1a"
+    },
+    {
+      "path": "scripts/run_neu_dm_b_factorial_v1.py",
+      "sha256": "8e63b7ab5aafb3d556dbe18d6f2d5910f666122581ead22f13e056303a06e72b"
+    },
+    {
+      "path": "scripts/run_neu_matched_strength_v1.py",
+      "sha256": "ff3ec752eaf6d31d6607e01cebe8188fcc2f6fcee73cff5ab005709b01a4634b"
+    },
+    {
+      "path": "scripts/run_neu_motion_control_v1.py",
+      "sha256": "56b64ae70c24a97d6c692205a049e3673749b89f844dff98a172a446680c5059"
+    },
+    {
+      "path": "scripts/run_neu_paper_night_v1.py",
+      "sha256": "c493ff7e96bd4858168bc938c7af1e09e1378acbecf5e6ca5da1f88fe5e67c38"
+    },
+    {
+      "path": "scripts/run_neu_region_diagnostics_v1.py",
+      "sha256": "e2cb886b486b518fd044c71c3399a9e450530c1f8589e2b7c15b68d4877105f9"
+    },
+    {
+      "path": "scripts/run_neu_strong_mix_test_v1.py",
+      "sha256": "8a54469fbf26e3d1e2a6538a1c4385838235ba6b89b42a33d361995b086aca3a"
+    },
+    {
+      "path": "scripts/run_neu_strong_mix_v1.py",
+      "sha256": "9b7a5347ac69e0457de0f02809253f47e3c2c085c76a777da1075437597ac91b"
+    },
+    {
+      "path": "scripts/run_neu_val_miss_diagnostics_v1.py",
+      "sha256": "2a36daa511bc8e1f83bc97f35cdf2543c76b8832150283858b0c1041d15144ca"
+    },
+    {
+      "path": "scripts/run_neu_yolov8n_b_transfer_v1.py",
+      "sha256": "14c8326d8b7b4100cd082ce5d3cde79962e0f5b1cfd41c307f59b3264d24146e"
+    },
+    {
+      "path": "scripts/run_neu_yolov8n_motion_pair_v1.py",
+      "sha256": "0660791798f18b4201548335dae24bd7891214979aa429be6f2f803fcd4ed547"
+    },
+    {
+      "path": "scripts/run_neu_yolov8n_seed1_v1.py",
+      "sha256": "81c6baf09798a7fe1683109b1c30edc1c1f76c2be7a1199b330ee3e68840a118"
+    },
+    {
+      "path": "scripts/shape_crossdata_common_v1.py",
+      "sha256": "f9b099388ed909be06b0695e13cb5153a2b021f51cf1d277d39b66e1b8851fd6"
+    },
+    {
+      "path": "scripts/shape_formal_common_v1.py",
+      "sha256": "8b1f8cc30d48b5663076f143409d2bb658b01464204701dd5d5e33b5d7e0ebea"
+    },
+    {
+      "path": "scripts/shape_formal_worker_v1.py",
+      "sha256": "9ec1cf69acec732f56fe49e01675ea3120868f5026936caf29883b7f1b87878c"
+    }
+  ]
+}

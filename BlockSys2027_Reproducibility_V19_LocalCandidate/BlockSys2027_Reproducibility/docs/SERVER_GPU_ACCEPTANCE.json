@@ -1,0 +1,421 @@
+{
+  "status": "PASS",
+  "execution_environment": "Original author lab environment, existing checkpoints",
+  "scope": "DM-YOLO seed2 low/high arms, linear27 four-direction validation inference on both datasets; not fresh-install, test-set or full-training reproduction.",
+  "endpoints_matched": 12,
+  "model_condition_passes": 16,
+  "image_inference_views": 3280,
+  "returned_predictions_locally_recounted": true,
+  "reports": [
+    {
+      "status": "PASS",
+      "training_started": false,
+      "scope": "DM seed2 fixed-checkpoint linear27 validation inference only; no training, cutoff refit, test inference or bootstrap.",
+      "source_files_verified": 435,
+      "dataset": "neu",
+      "seed": 2,
+      "physical_gpu": 0,
+      "inference_started": true,
+      "checks": [
+        {
+          "arm": "low",
+          "budget": 0.25,
+          "threshold": 0.45131033658981323,
+          "actual": {
+            "tp": 831,
+            "fp": 179,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 51.42326732673267,
+            "fppi": 0.24861111111111112
+          },
+          "expected": {
+            "tp": 831,
+            "fp": 179,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 51.42326732673267,
+            "fppi": 0.24861111111111112
+          },
+          "match": true
+        },
+        {
+          "arm": "low",
+          "budget": 0.2,
+          "threshold": 0.4953378438949585,
+          "actual": {
+            "tp": 800,
+            "fp": 143,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 49.504950495049506,
+            "fppi": 0.1986111111111111
+          },
+          "expected": {
+            "tp": 800,
+            "fp": 143,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 49.504950495049506,
+            "fppi": 0.1986111111111111
+          },
+          "match": true
+        },
+        {
+          "arm": "low",
+          "budget": 0.15,
+          "threshold": 0.5381590723991394,
+          "actual": {
+            "tp": 758,
+            "fp": 108,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 46.90594059405941,
+            "fppi": 0.15
+          },
+          "expected": {
+            "tp": 758,
+            "fp": 108,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 46.90594059405941,
+            "fppi": 0.15
+          },
+          "match": true
+        },
+        {
+          "arm": "high",
+          "budget": 0.25,
+          "threshold": 0.44888949394226074,
+          "actual": {
+            "tp": 869,
+            "fp": 180,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 53.774752475247524,
+            "fppi": 0.25
+          },
+          "expected": {
+            "tp": 869,
+            "fp": 180,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 53.774752475247524,
+            "fppi": 0.25
+          },
+          "match": true
+        },
+        {
+          "arm": "high",
+          "budget": 0.2,
+          "threshold": 0.5105802416801453,
+          "actual": {
+            "tp": 816,
+            "fp": 143,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 50.495049504950494,
+            "fppi": 0.1986111111111111
+          },
+          "expected": {
+            "tp": 816,
+            "fp": 143,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 50.495049504950494,
+            "fppi": 0.1986111111111111
+          },
+          "match": true
+        },
+        {
+          "arm": "high",
+          "budget": 0.15,
+          "threshold": 0.5594024062156677,
+          "actual": {
+            "tp": 782,
+            "fp": 108,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 48.39108910891089,
+            "fppi": 0.15
+          },
+          "expected": {
+            "tp": 782,
+            "fp": 108,
+            "gt": 1616,
+            "views": 720,
+            "recall_pct": 48.39108910891089,
+            "fppi": 0.15
+          },
+          "match": true
+        }
+      ],
+      "prediction_diagnostics": [
+        {
+          "arm": "low",
+          "condition": "unseen_27_0",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "low",
+          "condition": "unseen_27_45",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "low",
+          "condition": "unseen_27_90",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "low",
+          "condition": "unseen_27_135",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_0",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_45",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_90",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_135",
+          "images": 180,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        }
+      ],
+      "elapsed_seconds": 43.313247,
+      "local_recount_from_returned_inference_predictions": "PASS: all six endpoints independently recounted on author workstation",
+      "feedback_zip_sha256": "0efdcc79af781110d32bb33351ce8a0839ed7aa79ca1ce9d51d27ac883d994b2"
+    },
+    {
+      "status": "PASS",
+      "training_started": false,
+      "scope": "DM seed2 fixed-checkpoint linear27 validation inference only; no training, cutoff refit, test inference or bootstrap.",
+      "source_files_verified": 435,
+      "dataset": "gc10",
+      "seed": 2,
+      "physical_gpu": 1,
+      "inference_started": true,
+      "checks": [
+        {
+          "arm": "low",
+          "budget": 0.25,
+          "threshold": 0.41929346323013306,
+          "actual": {
+            "tp": 364,
+            "fp": 227,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 25.49019607843137,
+            "fppi": 0.2467391304347826
+          },
+          "expected": {
+            "tp": 364,
+            "fp": 227,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 25.49019607843137,
+            "fppi": 0.2467391304347826
+          },
+          "match": true
+        },
+        {
+          "arm": "low",
+          "budget": 0.2,
+          "threshold": 0.47359171509742737,
+          "actual": {
+            "tp": 328,
+            "fp": 184,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 22.969187675070028,
+            "fppi": 0.2
+          },
+          "expected": {
+            "tp": 328,
+            "fp": 184,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 22.969187675070028,
+            "fppi": 0.2
+          },
+          "match": true
+        },
+        {
+          "arm": "low",
+          "budget": 0.15,
+          "threshold": 0.539690375328064,
+          "actual": {
+            "tp": 279,
+            "fp": 138,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 19.537815126050422,
+            "fppi": 0.15
+          },
+          "expected": {
+            "tp": 279,
+            "fp": 138,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 19.537815126050422,
+            "fppi": 0.15
+          },
+          "match": true
+        },
+        {
+          "arm": "high",
+          "budget": 0.25,
+          "threshold": 0.36835941672325134,
+          "actual": {
+            "tp": 473,
+            "fp": 230,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 33.12324929971989,
+            "fppi": 0.25
+          },
+          "expected": {
+            "tp": 473,
+            "fp": 230,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 33.12324929971989,
+            "fppi": 0.25
+          },
+          "match": true
+        },
+        {
+          "arm": "high",
+          "budget": 0.2,
+          "threshold": 0.424472451210022,
+          "actual": {
+            "tp": 432,
+            "fp": 183,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 30.252100840336134,
+            "fppi": 0.19891304347826086
+          },
+          "expected": {
+            "tp": 432,
+            "fp": 183,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 30.252100840336134,
+            "fppi": 0.19891304347826086
+          },
+          "match": true
+        },
+        {
+          "arm": "high",
+          "budget": 0.15,
+          "threshold": 0.487969309091568,
+          "actual": {
+            "tp": 375,
+            "fp": 138,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 26.26050420168067,
+            "fppi": 0.15
+          },
+          "expected": {
+            "tp": 375,
+            "fp": 138,
+            "gt": 1428,
+            "views": 920,
+            "recall_pct": 26.26050420168067,
+            "fppi": 0.15
+          },
+          "match": true
+        }
+      ],
+      "prediction_diagnostics": [
+        {
+          "arm": "low",
+          "condition": "unseen_27_0",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "low",
+          "condition": "unseen_27_45",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "low",
+          "condition": "unseen_27_90",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "low",
+          "condition": "unseen_27_135",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_0",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_45",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_90",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        },
+        {
+          "arm": "high",
+          "condition": "unseen_27_135",
+          "images": 230,
+          "images_with_prediction_difference_above_tolerance": 0,
+          "diagnostic_only": "Ordered coordinates/scores atol=1e-4, rtol=1e-5; counts at all frozen budgets are the acceptance criterion."
+        }
+      ],
+      "elapsed_seconds": 63.6512429,
+      "local_recount_from_returned_inference_predictions": "PASS: all six endpoints independently recounted on author workstation",
+      "feedback_zip_sha256": "f331f0c5d92d48f83c95260ebcace2c1667b817fc52fb12f1373bfa3fab3f331"
+    }
+  ]
+}

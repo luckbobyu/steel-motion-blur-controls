@@ -1,0 +1,102 @@
+{
+  "low": {
+    "0.25": {
+      "threshold": 0.45131033658981323,
+      "checkpoint": {
+        "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_low_train/attempt_20261123_085803_020304/train/weights/last.pt",
+        "sha256": "8c4592b98f4c26b0c8535cd62115d5e804fb59b62c7ea6d7aa1a1d7ae94d306e"
+      },
+      "budget": 0.25,
+      "validation_counts": {
+        "tp": 831,
+        "fp": 179,
+        "gt": 1616,
+        "views": 720,
+        "recall_pct": 51.42326732673267,
+        "fppi": 0.24861111111111112
+      }
+    },
+    "0.2": {
+      "threshold": 0.4953378438949585,
+      "checkpoint": {
+        "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_low_train/attempt_20261123_085803_020304/train/weights/last.pt",
+        "sha256": "8c4592b98f4c26b0c8535cd62115d5e804fb59b62c7ea6d7aa1a1d7ae94d306e"
+      },
+      "budget": 0.2,
+      "validation_counts": {
+        "tp": 800,
+        "fp": 143,
+        "gt": 1616,
+        "views": 720,
+        "recall_pct": 49.504950495049506,
+        "fppi": 0.1986111111111111
+      }
+    },
+    "0.15": {
+      "threshold": 0.5381590723991394,
+      "checkpoint": {
+        "path": "records/blocksys101_seed2low_gpu0_v1_20261123_085557_919500/jobs/neu_seed2_low_train/attempt_20261123_085803_020304/train/weights/last.pt",
+        "sha256": "8c4592b98f4c26b0c8535cd62115d5e804fb59b62c7ea6d7aa1a1d7ae94d306e"
+      },
+      "budget": 0.15,
+      "validation_counts": {
+        "tp": 758,
+        "fp": 108,
+        "gt": 1616,
+        "views": 720,
+        "recall_pct": 46.90594059405941,
+        "fppi": 0.15
+      }
+    }
+  },
+  "high": {
+    "0.25": {
+      "threshold": 0.44888949394226074,
+      "checkpoint": {
+        "path": "records/blur_high_mean_seed2_gpu0_v1_20261112_182530_944624/jobs/neu_seed2_motion_mean_only_train/attempt_20261112_182557_770786/train/weights/last.pt",
+        "sha256": "31260db98232cdb579dd7f51dac47b6af145c4edc0056bb31d0b4f7a1d8027b7"
+      },
+      "budget": 0.25,
+      "validation_counts": {
+        "tp": 869,
+        "fp": 180,
+        "gt": 1616,
+        "views": 720,
+        "recall_pct": 53.774752475247524,
+        "fppi": 0.25
+      }
+    },
+    "0.2": {
+      "threshold": 0.5105802416801453,
+      "checkpoint": {
+        "path": "records/blur_high_mean_seed2_gpu0_v1_20261112_182530_944624/jobs/neu_seed2_motion_mean_only_train/attempt_20261112_182557_770786/train/weights/last.pt",
+        "sha256": "31260db98232cdb579dd7f51dac47b6af145c4edc0056bb31d0b4f7a1d8027b7"
+      },
+      "budget": 0.2,
+      "validation_counts": {
+        "tp": 816,
+        "fp": 143,
+        "gt": 1616,
+        "views": 720,
+        "recall_pct": 50.495049504950494,
+        "fppi": 0.1986111111111111
+      }
+    },
+    "0.15": {
+      "threshold": 0.5594024062156677,
+      "checkpoint": {
+        "path": "records/blur_high_mean_seed2_gpu0_v1_20261112_182530_944624/jobs/neu_seed2_motion_mean_only_train/attempt_20261112_182557_770786/train/weights/last.pt",
+        "sha256": "31260db98232cdb579dd7f51dac47b6af145c4edc0056bb31d0b4f7a1d8027b7"
+      },
+      "budget": 0.15,
+      "validation_counts": {
+        "tp": 782,
+        "fp": 108,
+        "gt": 1616,
+        "views": 720,
+        "recall_pct": 48.39108910891089,
+        "fppi": 0.15
+      }
+    }
+  }
+}

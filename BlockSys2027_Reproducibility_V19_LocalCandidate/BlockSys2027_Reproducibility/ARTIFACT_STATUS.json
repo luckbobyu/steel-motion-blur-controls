@@ -1,0 +1,26 @@
+{
+  "artifact_version": "0.1.0-local-candidate",
+  "paper": "Mean Blur Strength and Strength Distribution in Steel Defect Detection",
+  "target_manuscript": "English Draft V19, supplied 2026-11-26",
+  "published": false,
+  "public_url": null,
+  "authors": "not supplied",
+  "license": "author decision pending",
+  "scope": {
+    "exported_metrics": "CPU reconstruction checked; see LOCAL_VALIDATION.json for clean-directory run",
+    "path_counts": "included",
+    "kernel_reference": "13-tap moments and 12 new paths locally checked; official measured archive not supplied",
+    "fixed_checkpoint_evaluation": "Verified for DM seed2 low/high linear27 validation in original lab environment; full public fresh-install runtime not yet packaged or tested.",
+    "from_scratch_training": "not claimed as runnable by this candidate",
+    "image_cluster_bootstrap_reexecution": "requires per-original prediction cache, not only exported CI endpoints"
+  },
+  "manuscript_changes": "no manuscript is included or changed",
+  "target_manuscript_sha256": "086d39083a815e2b61bafb244c80962894f7ecbb9067da1f0b2f7826ed8d7fba",
+  "manuscript_mapping": "docs/MANUSCRIPT_MAPPING.md",
+  "server_asset_audit": "92/92 referenced assets found and SHA256 matched; docs/SERVER_ASSET_AUDIT.json",
+  "remote_repository": "https://github.com/luckbobyu/steel-motion-blur-controls",
+  "remote_visibility": "private; initial upload not completed",
+  "original_prediction_acceptance": "PASS: DM seed-2 linear27 validation cache replay, 12/12 frozen-cutoff endpoints; docs/SERVER_CPU_ACCEPTANCE.json",
+  "detector_source_audit": "622 source/runtime files privately collected and hash-verified; not publicly vendored.",
+  "limited_checkpoint_inference": "PASS: two datasets, DM seed2 low/high, 16 validation inference passes, 12/12 frozen-cutoff endpoints; returned prediction files locally recounted."
+}

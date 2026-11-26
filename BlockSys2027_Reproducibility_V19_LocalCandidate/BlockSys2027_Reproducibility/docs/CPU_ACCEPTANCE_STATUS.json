@@ -1,0 +1,16 @@
+{
+  "original_cpu_acceptance_status": "FAIL",
+  "endpoints_mismatched": 12,
+  "cause": "Acceptance-script input error: linear27 frozen cutoffs were incorrectly applied to strong_23 validation caches.",
+  "resolution": "Select 16 exact validation27 child job reports using archived parent-report hashes; verify report, checkpoint and prediction hashes and condition names.",
+  "corrected_server_execution": "PASS: 12/12 frozen-cutoff validation endpoints exactly match",
+  "historical_records_changed": false,
+  "private_runtime_directories": [
+    "code/DM-YOLO",
+    "scripts/_blocksys113_lib",
+    "scripts/_blocksys113_official"
+  ],
+  "private_runtime_files_hash_verified": 622,
+  "scope": "Original DM seed-2 validation count replay accepted; not training, inference, test-cache or bootstrap reexecution.",
+  "corrected_evidence": "SERVER_CPU_ACCEPTANCE.json"
+}
