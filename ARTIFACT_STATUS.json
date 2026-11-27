@@ -1,9 +1,9 @@
 {
-  "artifact_version": "0.1.0-private-preview",
+  "artifact_version": "0.1.0-public-metric-replay",
   "paper": "Mean Blur Strength and Strength Distribution in Steel Defect Detection",
-  "target_manuscript": "English Draft V19, supplied 2026-11-26",
-  "published": false,
-  "public_url": null,
+  "target_manuscript": "English V19 numerical results; V19.1/V19.2 reporting revisions",
+  "published": true,
+  "public_url": "https://github.com/luckbobyu/steel-motion-blur-controls",
   "authors": "not supplied",
   "license": "author decision pending",
   "scope": {
@@ -19,8 +19,14 @@
   "manuscript_mapping": "docs/MANUSCRIPT_MAPPING.md",
   "server_asset_audit": "92/92 referenced assets found and SHA256 matched; docs/SERVER_ASSET_AUDIT.json",
   "remote_repository": "https://github.com/luckbobyu/steel-motion-blur-controls",
-  "remote_visibility": "private; owner uploaded root-level files; remote Actions verification pending",
+  "remote_visibility": "public; owner-authorized release on 2026-11-27",
   "original_prediction_acceptance": "PASS: DM seed-2 linear27 validation cache replay, 12/12 frozen-cutoff endpoints; docs/SERVER_CPU_ACCEPTANCE.json",
   "detector_source_audit": "622 source/runtime files privately collected and hash-verified; not publicly vendored.",
-  "limited_checkpoint_inference": "PASS: two datasets, DM seed2 low/high, 16 validation inference passes, 12/12 frozen-cutoff endpoints; returned prediction files locally recounted."
+  "limited_checkpoint_inference": "PASS: two datasets, DM seed2 low/high, 16 validation inference passes, 12/12 frozen-cutoff endpoints; returned prediction files locally recounted.",
+  "remote_ci": {
+    "status": "success",
+    "commit": "d37256579e494f18034d48cd5c5badeb1f21d73a",
+    "url": "https://github.com/luckbobyu/steel-motion-blur-controls/actions/runs/45866367719",
+    "scope": "remote run verified before this documentation-only update"
+  }
 }

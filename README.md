@@ -6,7 +6,7 @@ in steel surface defect detection on NEU-DET and GC10-DET.
 This repository provides table reconstruction, blur-kernel checks and tools for
 evaluating archived predictions. It also includes reports from fixed-checkpoint
 inference checks completed in the original lab environment. Numerical inputs
-are aligned with manuscript V19; see [the manuscript mapping](docs/MANUSCRIPT_MAPPING.md).
+are aligned with manuscript V19 and its V19.1/V19.2 reporting revisions; see [the manuscript mapping](docs/MANUSCRIPT_MAPPING.md).
 
 ## What this repository reproduces
 
@@ -53,8 +53,8 @@ the archive is not bundled or downloaded automatically.
   rtol 1e-5 across 3,280 image-inference views. Returned predictions were also
   recounted locally. See `docs/SERVER_GPU_ACCEPTANCE.json`.
 - **Local checks:** table replay, kernel checks and unit tests passed in a clean
-  directory. See `LOCAL_VALIDATION.json`. GitHub Actions results require separate
-  confirmation on the repository's Actions page.
+  directory. See `LOCAL_VALIDATION.json`. The remote verification workflow passed on 27 November 2026
+  at commit `d372565` ([run](https://github.com/luckbobyu/steel-motion-blur-controls/actions/runs/45866367719)).
 
 The inference entry requires the pinned original lab project, datasets and
 checkpoints. Instructions are in `docs/GPU_INFERENCE_ACCEPTANCE.md`. These checks
@@ -77,8 +77,15 @@ compares different validation budgets; it is not a test-refitted iso-FP curve.
 FP/view counts extra predictions on defect-bearing benchmark views, rather than
 false alarms measured on a defect-free production stream.
 
-The repository is currently private while release preparation is completed.
+The repository was made public on 27 November 2026. Start from this root
+folder; the older nested `BlockSys2027_Reproducibility_V19_LocalCandidate/`
+folder is a retained historical upload, not a second required installation.
+See [source-table and protocol index](SOURCE_TABLES_INDEX.md) for the mapping
+between the paper's Source Tables S1-S3 and the CSVs and replay outputs.
+
 Model checkpoints, raw dataset images and third-party detector runtimes are not
-bundled. Upstream sources and licensing information are described in
-`docs/PROVENANCE.md`. License selection, authorship metadata and public-release
-approval remain pending; see `ARTIFACT_STATUS.json` and `docs/GITHUB_RELEASE.md`.
+bundled. Upstream attribution is recorded in `docs/PROVENANCE.md`. No new license
+grant is inferred from public visibility; license selection and formal author
+metadata remain pending. Older release-preparation notes in `docs/` describe
+pre-release status. This README and `ARTIFACT_STATUS.json` describe current
+availability. Numerical inputs and validated scope have not changed.
